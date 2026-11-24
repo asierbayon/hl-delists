@@ -25,12 +25,26 @@ Raw files:
 - https://raw.githubusercontent.com/asierbayon/hl-delists/main/data/delistings.ics
 - https://raw.githubusercontent.com/asierbayon/hl-delists/main/data/freqtrade-blacklist.json
 
-The same files are published on GitHub Pages from `docs/` when Pages is enabled for this repository:
+The same files are copied under `docs/` for GitHub Pages. `docs/index.html` is the calendar page. When Pages is enabled for this repository:
 
 - https://asierbayon.github.io/hl-delists/
 - https://asierbayon.github.io/hl-delists/delistings.json
 - https://asierbayon.github.io/hl-delists/delistings.rss
 - https://asierbayon.github.io/hl-delists/delistings.ics
+
+## Page
+
+`docs/index.html` reads `delistings.json` from the same directory. It does not call a live API. Each row shows the asset, market, status, vote time, effective time, and a link to the source. The status and market filters use the values from the schema, and the search box matches the asset. A time the announcement called approximate is labeled approximate. A time the source did not state is shown as none.
+
+GitHub Pages, once enabled on the `docs/` folder, serves the page at https://asierbayon.github.io/hl-delists/.
+
+Serve that folder so the page and the JSON share an origin:
+
+```bash
+python -m http.server -d docs 8000
+```
+
+Open http://127.0.0.1:8000/. Opening the HTML file directly does not work: the browser will not let the page read `delistings.json`.
 
 ## Schema
 
