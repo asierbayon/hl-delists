@@ -1,0 +1,5 @@
+{
+  "schema_version": "1",
+  "note": "Meta diffs start at the first committed snapshot. The baseline itself is not rewritten as historical listings or delistings.",
+  "changes": []
+}

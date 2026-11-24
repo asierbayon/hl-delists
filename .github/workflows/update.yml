@@ -1,0 +1,39 @@
+name: update
+
+on:
+  schedule:
+    # Public delist notices are posted days ahead. Fifteen minutes is enough,
+    # and it keeps the request rate low.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hl-delists-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh calendar
+        run: PYTHONPATH=src python -m hl_delists.update
+      - name: Test the rebuilt outputs
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Commit calendar changes
+        run: |
+          git config user.name "Asier Bayón"
+          git config user.email "72617923+asierbayon@users.noreply.github.com"
+          git add data docs sources
+          if git diff --cached --quiet; then
+            echo "No calendar changes."
+            exit 0
+          fi
+          git commit -m "Update Hyperliquid delist calendar"
+          git push

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/asierbayon/hl-delists/blob/main/data/schema.json",
+  "title": "Hyperliquid delist calendar",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "1" },
+    "generated_at": {
+      "type": "string",
+      "description": "UTC time when this file was built. Status values were decided at this clock."
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "asset",
+        "market",
+        "kind",
+        "status",
+        "source_url",
+        "source_urls"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable id. app:{uuid}:{asset}, tg:{message}:{asset}, or meta:{market}:{coin}."
+        },
+        "asset": {
+          "type": "string",
+          "description": "Ticker as written in the source. HIP-3 bases are the name before the quote, so GOOGLE stays GOOGLE when the post says GOOGLE-USDT."
+        },
+        "market": { "enum": ["perp", "spot", "hip3"] },
+        "dex": {
+          "type": ["string", "null"],
+          "description": "HIP-3 dex short name such as hyna or cash. Null on the main perp dex."
+        },
+        "market_name": {
+          "type": ["string", "null"],
+          "description": "Pair label from a HIP-3 sunset post, such as BTC-USDE."
+        },
+        "kind": {
+          "enum": [
+            "delist_vote",
+            "scheduled_delist",
+            "delist_notice",
+            "hip3_sunset",
+            "observed_delisted"
+          ]
+        },
+        "status": {
+          "enum": [
+            "scheduled",
+            "delisted",
+            "postponed",
+            "unconfirmed",
+            "superseded",
+            "elapsed",
+            "relisted"
+          ],
+          "description": "scheduled: the stated time is still in the future and the post was not postponed or confirmed. delisted: a later post confirmed it, a quorum time was reported, or info meta has isDelisted true on the latest schedule. postponed: a post postponed the delist and meta does not show it delisted. unconfirmed: the stated time passed, meta does not show isDelisted, and no confirmation post was found. superseded: a later schedule exists for the same asset. elapsed: a HIP-3 window has started and the meta coin could not be matched. relisted: a confirmation exists but meta currently has isDelisted false."
+        },
+        "announced_at": { "type": ["string", "null"], "format": "date-time" },
+        "vote_time": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "description": "Validator vote time stated in the announcement. Null when the post scheduled a delist directly."
+        },
+        "vote_time_approximate": {
+          "type": "boolean",
+          "description": "True when the source said around or approximately."
+        },
+        "effective_time": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "description": "Set only when a source states when the delist takes effect: a direct schedule, a corrected clock, a reported quorum time, or the start of a HIP-3 wind-down. Validator votes otherwise leave this null. The usual settlement rule is the one-hour oracle TWAP before the vote, which is not a single timestamp."
+        },
+        "effective_time_approximate": { "type": "boolean" },
+        "effective_time_end": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "description": "End of a HIP-3 wind-down window when the post states one. Individual markets inside the window are not assigned their own hour."
+        },
+        "settlement": {
+          "type": ["string", "null"],
+          "enum": ["1h_oracle_twap", "mark_price", "final_mark_price", null],
+          "description": "Settlement method only when the source text states it. Older votes that do not say how positions settle are null."
+        },
+        "source_url": { "type": "string", "format": "uri" },
+        "source_urls": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "excerpt": { "type": "string" },
+        "reference_urls": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "api_coin": {
+          "type": ["string", "null"],
+          "description": "Coin name in info meta when it matched. Null when it did not, including GOOGLE versus cash:GOOGL."
+        },
+        "api_is_delisted": { "type": ["boolean", "null"] }
+      }
+    }
+  }
+}

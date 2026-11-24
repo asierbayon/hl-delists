@@ -1,0 +1,900 @@
+{
+  "entries": [
+    {
+      "title": "TWAP max/min price update",
+      "createdAt": "2026-10-31T09:36:57.204Z",
+      "preview": "Max/min price acts as a limit price instead of cancelling the remaining order",
+      "uuid": "k9ey8g0u1i",
+      "hash": "k9ey8g0u1i-2026-10-31T09:38:53.231Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: XTEN-USDC hyperp",
+      "createdAt": "2026-10-27T06:44:24.964Z",
+      "preview": "",
+      "uuid": "ytan9gl3nv",
+      "hash": "ytan9gl3nv-2026-10-27T10:44:54.496Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New order type: Trailing stop",
+      "createdAt": "2026-09-21T05:30:12.654Z",
+      "preview": "Available for perp markets only",
+      "uuid": "aq5gf58qal",
+      "hash": "aq5gf58qal-2026-09-21T05:38:00.623Z",
+      "category": "Updates"
+    },
+    {
+      "title": "Manual borrowing now available",
+      "createdAt": "2026-09-18T06:15:46.000Z",
+      "preview": "Use HYPE and BTC as collateral to borrow USDC and USDT",
+      "uuid": "i7ppd6z6e4",
+      "hash": "i7ppd6z6e4-2026-09-18T06:29:37.561Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: USELESS-USDC perps",
+      "createdAt": "2026-09-08T16:07:34.521Z",
+      "preview": "",
+      "uuid": "2shcbzuu78p",
+      "hash": "2shcbzuu78p-2026-09-08T16:08:57.655Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: PONS-USDC perps",
+      "createdAt": "2026-08-31T04:01:57.542Z",
+      "preview": "",
+      "uuid": "sn4edvuzua",
+      "hash": "sn4edvuzua-2026-08-31T04:03:57.661Z",
+      "category": "Listings"
+    },
+    {
+      "title": "HyENA HIP-3 DEX sunset",
+      "createdAt": "2026-08-28T16:11:06.526Z",
+      "preview": "All HyENA (hyna) markets will wind down starting from 10:00 UTC on 31 August",
+      "uuid": "nkbbby8yrh",
+      "hash": "nkbbby8yrh-2026-08-28T16:15:05.069Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Validator vote to delist VINE",
+      "createdAt": "2026-08-24T10:06:23.174Z",
+      "preview": "",
+      "uuid": "rl469tntie",
+      "hash": "rl469tntie-2026-08-24T14:51:44.457Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Outcome (HIP-4) fees will be enabled",
+      "createdAt": "2026-08-14T09:36:26.700Z",
+      "preview": "",
+      "uuid": "tm2eqyd9aa",
+      "hash": "tm2eqyd9aa-2026-08-14T10:03:57.294Z",
+      "category": "Updates"
+    },
+    {
+      "title": "TWAP order improvements",
+      "createdAt": "2026-08-02T05:42:56.872Z",
+      "preview": "Trigger price, max/min price, 7 day running time",
+      "uuid": "ih9j0po0zx",
+      "hash": "ih9j0po0zx-2026-08-02T06:18:13.165Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New order type: Chase orders",
+      "createdAt": "2026-07-15T11:44:40.999Z",
+      "preview": "Available for perp markets on desktop only",
+      "uuid": "u078ae4nria",
+      "hash": "u078ae4nria-2026-07-15T11:52:24.935Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: CASHCAT-USDC perps",
+      "createdAt": "2026-07-11T04:55:40.330Z",
+      "preview": "",
+      "uuid": "ck9slhcwj46",
+      "hash": "ck9slhcwj46-2026-07-11T04:58:33.592Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot ANSEM",
+      "createdAt": "2026-07-10T15:49:53.462Z",
+      "preview": "ANSEM spot trading, deposits, and withdrawals are now live",
+      "uuid": "uxklckhlph",
+      "hash": "uxklckhlph-2026-07-10T16:59:57.065Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Hyperliquid and Trade[XYZ] data live on TradingView",
+      "createdAt": "2026-07-02T16:45:20.315Z",
+      "preview": "",
+      "uuid": "uk5j463fq3m",
+      "hash": "uk5j463fq3m-2026-08-19T08:30:38.470Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: GRAM-USDC perps",
+      "createdAt": "2026-07-02T09:12:40.068Z",
+      "preview": "",
+      "uuid": "nuzmz896wcf",
+      "hash": "nuzmz896wcf-2026-07-02T09:32:25.158Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Dreamcash HIP-3 DEX sunset",
+      "createdAt": "2026-06-29T03:50:31.790Z",
+      "preview": "All Dreamcash (cash) markets will wind down starting from 13:45 UTC on 30 June",
+      "uuid": "ydvor1grh4",
+      "hash": "ydvor1grh4-2026-06-29T03:54:09.573Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Validator vote to delist IP",
+      "createdAt": "2026-06-26T11:41:07.044Z",
+      "preview": "",
+      "uuid": "r8bdggoyih",
+      "hash": "r8bdggoyih-2026-06-26T11:44:56.208Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Portfolio margin enters beta with increased limits",
+      "createdAt": "2026-06-25T09:53:58.104Z",
+      "preview": "",
+      "uuid": "bbusml4dh5r",
+      "hash": "bbusml4dh5r-2026-06-25T10:23:36.156Z",
+      "category": "Updates"
+    },
+    {
+      "title": "USDH sunset: Portfolio margin actions",
+      "createdAt": "2026-06-24T06:15:44.624Z",
+      "preview": "Users are recommended to immediately repay USDH borrows and withdraw supplied USDH",
+      "uuid": "wvk5zy64i1",
+      "hash": "wvk5zy64i1-2026-06-24T06:16:20.074Z",
+      "category": "Updates"
+    },
+    {
+      "title": "Validator vote to delist ARK, DOOD",
+      "createdAt": "2026-06-22T14:07:06.441Z",
+      "preview": "",
+      "uuid": "6jtili4w5t",
+      "hash": "6jtili4w5t-2026-06-22T14:07:48.446Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "USDH sunset",
+      "createdAt": "2026-06-21T05:28:23.253Z",
+      "preview": "Users are recommended to immediately swap USDH for USDC",
+      "uuid": "hg5flecvssd",
+      "hash": "hg5flecvssd-2026-06-21T05:32:46.881Z",
+      "category": "Updates"
+    },
+    {
+      "title": "Validator vote to delist TON",
+      "createdAt": "2026-06-12T05:41:48.617Z",
+      "preview": "",
+      "uuid": "q29gexq5s1h",
+      "hash": "q29gexq5s1h-2026-06-12T05:42:52.567Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Validator vote to delist BLAST, CHILLGUY, FTT, and TST",
+      "createdAt": "2026-05-21T08:03:05.338Z",
+      "preview": "",
+      "uuid": "5w9usyzab1b",
+      "hash": "5w9usyzab1b-2026-05-21T08:04:21.722Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Validator vote to delist MAV, MAVIA, MEW, PROMPT, SCR, TST, USTC, YZY, and ZEREBRO",
+      "createdAt": "2026-04-30T16:41:52.537Z",
+      "preview": "",
+      "uuid": "15voh4lxgo2",
+      "hash": "15voh4lxgo2-2026-04-30T16:43:17.828Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "MEGA hyperp conversion to regular perp",
+      "createdAt": "2026-04-30T11:10:56.755Z",
+      "preview": "Long or short MEGA with up to 3x leverage",
+      "uuid": "0u83cc67xm6",
+      "hash": "0u83cc67xm6-2026-04-30T10:52:06.356Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: CHIP-USDC perps",
+      "createdAt": "2026-04-22T02:27:34.147Z",
+      "preview": "",
+      "uuid": "zcse7haubco",
+      "hash": "zcse7haubco-2026-04-22T02:28:56.265Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Max leverage updated to 5x for INJ, LDO, OP, SEI, TIA",
+      "createdAt": "2026-04-05T06:00:35.229Z",
+      "preview": "",
+      "uuid": "kc6m44j8irq",
+      "hash": "kc6m44j8irq-2026-04-05T06:18:55.465Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: S&P500 perps",
+      "createdAt": "2026-03-18T13:33:20.134Z",
+      "preview": "S&P partners with Trade[XYZ] to launch S&P500 perps",
+      "uuid": "mgj0kfr4hy",
+      "hash": "mgj0kfr4hy-2026-03-24T07:44:23.728Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot ZEC",
+      "createdAt": "2026-03-09T11:11:54.115Z",
+      "preview": "",
+      "uuid": "238kfwus36e",
+      "hash": "238kfwus36e-2026-03-10T01:42:25.852Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist OM",
+      "createdAt": "2026-02-19T08:43:21.347Z",
+      "preview": "",
+      "uuid": "f1xw9xsh1e",
+      "hash": "f1xw9xsh1e-2026-02-20T07:15:02.018Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "New listing: AZTEC-USDC perps",
+      "createdAt": "2026-02-12T08:22:20.612Z",
+      "preview": "",
+      "uuid": "yfuo7h30trg",
+      "hash": "yfuo7h30trg-2026-02-12T08:25:56.942Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: SKR-USDC perps",
+      "createdAt": "2026-01-22T02:58:19.786Z",
+      "preview": "",
+      "uuid": "szak2iquskl",
+      "hash": "szak2iquskl-2026-01-22T02:59:00.828Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: DASH-USDC perps",
+      "createdAt": "2026-01-18T08:59:06.654Z",
+      "preview": "",
+      "uuid": "hfqplj1urgw",
+      "hash": "hfqplj1urgw-2026-01-18T08:59:49.522Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: AXS-USDC perps",
+      "createdAt": "2026-01-18T04:11:07.065Z",
+      "preview": "",
+      "uuid": "k9nvw5ihjk",
+      "hash": "k9nvw5ihjk-2026-01-18T04:12:06.892Z",
+      "category": "Listings"
+    },
+    {
+      "title": "LIT hyperp conversion to regular perp",
+      "createdAt": "2026-01-15T14:40:19.781Z",
+      "preview": "Long or short LIT with up to 3x leverage",
+      "uuid": "0jgs72uy349t",
+      "hash": "0jgs72uy349t-2026-01-15T14:42:20.470Z",
+      "category": "Listings"
+    },
+    {
+      "title": "FOGO hyperp conversion to regular perp",
+      "createdAt": "2026-01-15T14:04:29.832Z",
+      "preview": "Long or short FOGO with up to 3x leverage",
+      "uuid": "6mc8x269719",
+      "hash": "6mc8x269719-2026-01-15T14:05:31.868Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: XMR-USDC perps",
+      "createdAt": "2026-01-15T08:45:04.989Z",
+      "preview": "",
+      "uuid": "iuw4yjsyhfn",
+      "hash": "iuw4yjsyhfn-2026-01-15T09:18:18.851Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist FXS",
+      "createdAt": "2026-01-02T14:41:46.818Z",
+      "preview": "",
+      "uuid": "frkbnmlckgv",
+      "hash": "frkbnmlckgv-2026-01-02T14:42:54.677Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "New listing: LIT-USDC hyperps",
+      "createdAt": "2025-12-22T15:46:48.405Z",
+      "preview": "Long or short the unlaunched Lighter token with up to 3x leverage",
+      "uuid": "rwv26oh3ki",
+      "hash": "rwv26oh3ki-2025-12-22T15:52:57.159Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: FOGO-USDC hyperps",
+      "createdAt": "2025-12-11T02:53:41.871Z",
+      "preview": "Long or short the unlaunched FOGO token with up to 3x leverage",
+      "uuid": "76p9rpjympn",
+      "hash": "76p9rpjympn-2025-12-11T02:55:47.321Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: STABLE-USD perps",
+      "createdAt": "2025-12-08T13:31:03.013Z",
+      "preview": "",
+      "uuid": "1utk7yrsbug",
+      "hash": "1utk7yrsbug-2025-12-08T13:31:58.281Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot ENA",
+      "createdAt": "2025-11-26T07:10:57.249Z",
+      "preview": "ENA spot trading, deposits, and withdrawals are now live",
+      "uuid": "rs4i8u2uu59",
+      "hash": "rs4i8u2uu59-2025-11-26T07:13:24.554Z",
+      "category": "Listings"
+    },
+    {
+      "title": "MON hyperp conversion to regular perp",
+      "createdAt": "2025-11-24T15:58:52.733Z",
+      "preview": "Long or short MON with up to 3x leverage",
+      "uuid": "3b896v9wksc",
+      "hash": "3b896v9wksc-2025-11-24T16:09:38.599Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot MON",
+      "createdAt": "2025-11-24T14:03:44.548Z",
+      "preview": "MON spot trading, deposits, and withdrawals are now live",
+      "uuid": "xahuvfftx6p",
+      "hash": "xahuvfftx6p-2025-11-24T14:05:38.500Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Max leverage updated for various assets",
+      "createdAt": "2025-11-14T16:48:18.217Z",
+      "preview": "",
+      "uuid": "pbr901ucfwm",
+      "hash": "pbr901ucfwm-2025-11-14T16:57:09.659Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: AERO-USD perps",
+      "createdAt": "2025-11-11T06:51:48.511Z",
+      "preview": "",
+      "uuid": "epg7ngshdra",
+      "hash": "epg7ngshdra-2025-11-11T06:52:37.598Z",
+      "category": "Listings"
+    },
+    {
+      "title": "CC hyperp conversion to regular perp",
+      "createdAt": "2025-11-10T07:20:44.989Z",
+      "preview": "Long or short CC with up to 3x leverage",
+      "uuid": "p5hsl2qolk8",
+      "hash": "p5hsl2qolk8-2025-11-10T07:23:19.972Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: ICP-USD perps",
+      "createdAt": "2025-11-08T03:44:32.920Z",
+      "preview": "",
+      "uuid": "bilifsqkbv8",
+      "hash": "bilifsqkbv8-2025-11-08T03:45:19.994Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist AI16Z",
+      "createdAt": "2025-11-03T06:48:07.857Z",
+      "preview": "",
+      "uuid": "3zhbwdg3j94",
+      "hash": "3zhbwdg3j94-2025-11-03T06:49:54.361Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "New listing: CC-USDC hyperps",
+      "createdAt": "2025-10-31T12:15:52.933Z",
+      "preview": "Long or short the unlaunched CC (Canton Network) token with up to 3x leverage",
+      "uuid": "f2ywy93476f",
+      "hash": "f2ywy93476f-2025-11-03T06:50:51.428Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist LAUNCHCOIN",
+      "createdAt": "2025-10-24T09:30:56.663Z",
+      "preview": "",
+      "uuid": "w50kcqiztvk",
+      "hash": "w50kcqiztvk-2025-10-24T09:40:01.321Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "MET hyperp conversion to regular perp",
+      "createdAt": "2025-10-23T14:09:14.299Z",
+      "preview": "Long or short MET with up to 3x leverage",
+      "uuid": "97xm0wy20mu",
+      "hash": "97xm0wy20mu-2025-10-23T14:10:35.910Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: MEGA-USD hyperps",
+      "createdAt": "2025-10-22T15:30:42.423Z",
+      "preview": "Long or short the unlaunched MEGA (MegaETH) token with up to 3x leverage",
+      "uuid": "w2j2afde7q",
+      "hash": "w2j2afde7q-2025-10-22T15:45:56.291Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Max leverage updated for various assets",
+      "createdAt": "2025-10-15T11:54:29.665Z",
+      "preview": "Max leverage has been updated to 10x for PAXG and PUMP and 5x for ASTER",
+      "uuid": "yci6xuib2xq",
+      "hash": "yci6xuib2xq-2025-10-15T11:56:47.603Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: MET-USD hyperps",
+      "createdAt": "2025-10-10T11:00:48.479Z",
+      "preview": "Long or short the unlaunched MET (Meteora) token with up to 3x leverage",
+      "uuid": "f5yl4qrhuxq",
+      "hash": "f5yl4qrhuxq-2025-10-10T11:02:39.530Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: MON-USD hyperps",
+      "createdAt": "2025-10-08T04:36:30.520Z",
+      "preview": "Long or short the unlaunched MON (Monad) token with up to 3x leverage",
+      "uuid": "phktja26yo8",
+      "hash": "phktja26yo8-2025-10-08T04:38:19.729Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: ZEC-USD perps",
+      "createdAt": "2025-10-02T13:29:13.100Z",
+      "preview": "",
+      "uuid": "1hfvygpiurb",
+      "hash": "1hfvygpiurb-2025-11-08T03:45:28.134Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: 2Z-USD perps",
+      "createdAt": "2025-10-02T13:07:46.727Z",
+      "preview": "",
+      "uuid": "u33p3wo7s",
+      "hash": "u33p3wo7s-2025-10-02T13:10:09.089Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot 2Z",
+      "createdAt": "2025-10-02T12:59:46.561Z",
+      "preview": "2Z spot trading, deposits, and withdrawals are now live",
+      "uuid": "pyrjkio16o",
+      "hash": "pyrjkio16o-2025-10-02T13:02:17.664Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: APEX-USD perps",
+      "createdAt": "2025-09-27T06:32:55.266Z",
+      "preview": "",
+      "uuid": "xmctgc0fb3r",
+      "hash": "xmctgc0fb3r-2025-09-27T06:33:54.962Z",
+      "category": "Listings"
+    },
+    {
+      "title": "XPL hyperp conversion to regular perp",
+      "createdAt": "2025-09-25T13:18:36.779Z",
+      "preview": "Long or short XPL with up to 10x leverage",
+      "uuid": "j7amyz7uspl",
+      "hash": "j7amyz7uspl-2025-09-25T13:21:38.142Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot XPL",
+      "createdAt": "2025-09-25T13:00:50.992Z",
+      "preview": "XPL spot trading, deposits, and withdrawals are now live",
+      "uuid": "a8c5mhp94ro",
+      "hash": "a8c5mhp94ro-2025-09-25T13:02:29.520Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: HEMI-USD perps",
+      "createdAt": "2025-09-24T07:27:22.483Z",
+      "preview": "",
+      "uuid": "yy7rtlua0f",
+      "hash": "yy7rtlua0f-2025-09-24T07:28:11.575Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist NEIROETH and OMNI",
+      "createdAt": "2025-09-23T16:32:47.249Z",
+      "preview": "",
+      "uuid": "xsn2xu4g5g",
+      "hash": "xsn2xu4g5g-2025-09-23T16:33:41.842Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "New listing: 0G-USD perps",
+      "createdAt": "2025-09-22T10:02:40.376Z",
+      "preview": "",
+      "uuid": "f56mc98yd3",
+      "hash": "f56mc98yd3-2025-09-22T10:01:19.306Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: STBL-USD perps",
+      "createdAt": "2025-09-22T03:25:27.358Z",
+      "preview": "",
+      "uuid": "bijaeynh3th",
+      "hash": "bijaeynh3th-2025-09-22T03:28:20.392Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: AVNT-USD perps",
+      "createdAt": "2025-09-21T07:07:46.506Z",
+      "preview": "",
+      "uuid": "brfwwxy7au",
+      "hash": "brfwwxy7au-2025-09-21T07:08:38.116Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: ASTER-USD perps",
+      "createdAt": "2025-09-19T10:39:20.115Z",
+      "preview": "",
+      "uuid": "c0oewe9ts34",
+      "hash": "c0oewe9ts34-2025-09-19T10:40:34.499Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: SKY-USD perps",
+      "createdAt": "2025-09-17T05:31:25.511Z",
+      "preview": "This is part of the MKR transition to SKY",
+      "uuid": "gbqsq7cfw9",
+      "hash": "gbqsq7cfw9-2025-09-17T05:59:30.983Z",
+      "category": "Listings"
+    },
+    {
+      "title": "LINEA hyperp conversion to regular perp",
+      "createdAt": "2025-09-10T16:15:07.777Z",
+      "preview": "Long or short LINEA with up to 3x leverage",
+      "uuid": "wot0oiojyje",
+      "hash": "wot0oiojyje-2025-09-10T16:26:27.848Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist MKR",
+      "createdAt": "2025-09-03T05:13:06.742Z",
+      "preview": "",
+      "uuid": "8pcq8szcgpm",
+      "hash": "8pcq8szcgpm-2025-09-03T05:13:55.327Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "WLFI hyperp conversion to regular perp",
+      "createdAt": "2025-09-01T13:17:00.742Z",
+      "preview": "Long or short WLFI with up to 3x leverage",
+      "uuid": "sipavy6ozc",
+      "hash": "sipavy6ozc-2025-09-01T13:20:09.889Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: LINEA-USD hyperps",
+      "createdAt": "2025-09-01T09:29:27.338Z",
+      "preview": "Long or short the unlaunched LINEA token with up to 3x leverage\t",
+      "uuid": "gcjeq2fsfqo",
+      "hash": "gcjeq2fsfqo-2025-09-01T09:32:26.276Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Bitgo adds custody support for HYPE",
+      "createdAt": "2025-08-27T08:45:30.432Z",
+      "preview": "Institutions can hold HYPE on the HyperEVM with Bitgo",
+      "uuid": "oofxea04en7",
+      "hash": "oofxea04en7-2025-08-27T08:53:08.952Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: WLFI-USD hyperps",
+      "createdAt": "2025-08-23T10:30:20.082Z",
+      "preview": "Long or short the unlaunched WLFI (World Liberty Financial) token with up to 3x leverage",
+      "uuid": "72pqa8v9495",
+      "hash": "72pqa8v9495-2025-08-23T10:33:20.770Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: XPL-USD hyperps",
+      "createdAt": "2025-08-22T09:15:06.809Z",
+      "preview": "Long or short the unlaunched XPL (Plasma) token with up to 3x leverage",
+      "uuid": "k6nmxxvvg6",
+      "hash": "k6nmxxvvg6-2025-08-22T09:19:48.780Z",
+      "category": "Listings"
+    },
+    {
+      "title": "New listing: YZY-USD perps",
+      "createdAt": "2025-08-21T03:20:29.568Z",
+      "preview": "",
+      "uuid": "55ejx5zt0bd",
+      "hash": "55ejx5zt0bd-2025-08-21T05:16:50.724Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Anchorage adds custody support for HYPE",
+      "createdAt": "2025-08-13T15:05:44.776Z",
+      "preview": "Institutions can hold HYPE on the HyperEVM with Anchorage Digital Bank",
+      "uuid": "wl0j7xmti4h",
+      "hash": "wl0j7xmti4h-2025-08-15T07:10:30.983Z",
+      "category": "Updates"
+    },
+    {
+      "title": "New listing: PROVE-USD perps",
+      "createdAt": "2025-08-06T03:15:55.246Z",
+      "preview": "",
+      "uuid": "h4g2r08vta9",
+      "hash": "h4g2r08vta9-2025-08-06T03:32:22.080Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Validator vote to delist kDOGS, OGN, REQ, and STG",
+      "createdAt": "2025-08-01T05:37:32.832Z",
+      "preview": "",
+      "uuid": "igatpkcw9m",
+      "hash": "igatpkcw9m-2025-08-01T05:37:49.055Z",
+      "category": "Delistings"
+    },
+    {
+      "title": "Added spot BONK",
+      "createdAt": "2025-07-30T14:01:58.541Z",
+      "preview": "BONK spot trading, deposits, and withdrawals are now live",
+      "uuid": "88en1d1a6y",
+      "hash": "88en1d1a6y-2025-07-30T14:05:23.647Z",
+      "category": "Listings"
+    },
+    {
+      "title": "Added spot SPX6900",
+      "createdAt": "2025-07-24T15:06:06.202Z",
+      "preview": "SPX6900 spot trading, deposits, and withdrawals are now live",
+      "uuid": "9syelfjltzq",
+      "category": "Listings",
+      "hash": "9syelfjltzq"
+    },
+    {
+      "title": "PUMP hyperp conversion to regular perp",
+      "createdAt": "2025-07-14T17:45:11.816Z",
+      "preview": "Long or short PUMP with up to 5x leverage",
+      "uuid": "c6e8fy58xm",
+      "category": "Listings",
+      "hash": "c6e8fy58xm"
+    },
+    {
+      "title": "Added spot PUMP",
+      "createdAt": "2025-07-14T17:27:34.878Z",
+      "preview": "PUMP spot trading, deposits, and withdrawals are now live",
+      "uuid": "3rkztitlu83",
+      "category": "Listings",
+      "hash": "3rkztitlu83"
+    },
+    {
+      "title": "HyperCore on Rabby Wallet",
+      "createdAt": "2025-07-14T12:05:49.761Z",
+      "preview": "Rabby Wallet shows HyperCore balances",
+      "uuid": "i6t6r1hwofp",
+      "category": "Updates",
+      "hash": "i6t6r1hwofp"
+    },
+    {
+      "title": "New listing: PUMP-USD hyperps",
+      "createdAt": "2025-07-10T03:35:41.740Z",
+      "preview": "Long or short the unlaunched PUMP (Pump.fun) token with up to 3x leverage",
+      "uuid": "zzt2ein6mrn",
+      "category": "Listings",
+      "hash": "zzt2ein6mrn"
+    },
+    {
+      "title": "Phantom wallet perps integration",
+      "createdAt": "2025-07-09T01:11:00.416Z",
+      "preview": "Phantom added support for perps trading by using Hyperliquid as their infrastructure layer",
+      "uuid": "ut77zd60gs",
+      "category": "Updates",
+      "hash": "ut77zd60gs"
+    },
+    {
+      "title": "Etherscan HyperEVM explorer",
+      "createdAt": "2025-07-07T12:08:58.364Z",
+      "preview": "Etherscan developed an explorer for the HyperEVM",
+      "uuid": "3r9glzy6tbd",
+      "category": "Updates",
+      "hash": "3r9glzy6tbd"
+    },
+    {
+      "title": "New listing: SYRUP-USD perps",
+      "createdAt": "2025-06-26T05:44:06.359Z",
+      "preview": "",
+      "uuid": "ji1qenu1yij",
+      "category": "Listings",
+      "hash": "ji1qenu1yij"
+    },
+    {
+      "title": "New listing: RESOLV-USD perps",
+      "createdAt": "2025-06-10T14:17:11.543Z",
+      "preview": "",
+      "uuid": "aghg2mtqyba",
+      "category": "Listings",
+      "hash": "aghg2mtqyba"
+    },
+    {
+      "title": "Margin tiers: BTC, ETH, SOL, XRP, HYPE, FARTCOIN",
+      "createdAt": "2025-05-29T08:16:23.164Z",
+      "preview": "Going live on June 2 at approximately 03:30 UTC",
+      "uuid": "bx25nfmhfin",
+      "category": "Updates",
+      "hash": "bx25nfmhfin"
+    },
+    {
+      "title": "New listing: SOPH-USD perps",
+      "createdAt": "2025-05-28T14:48:44.156Z",
+      "preview": "",
+      "uuid": "l8b02eztel",
+      "category": "Listings",
+      "hash": "l8b02eztel"
+    },
+    {
+      "title": "Initial rollout of margin tiers",
+      "createdAt": "2025-05-21T06:21:50.372Z",
+      "preview": "Going live on May 22 at approximately 06:00 UTC",
+      "uuid": "wh4rzed4as",
+      "category": "Updates",
+      "hash": "wh4rzed4as"
+    },
+    {
+      "title": "HyperEVM on Rabby Wallet",
+      "createdAt": "2025-05-20T13:20:05.171Z",
+      "preview": "Rabby Wallet and DeBank have integrated the HyperEVM",
+      "uuid": "izffm8mknw",
+      "category": "Updates",
+      "hash": "izffm8mknw"
+    },
+    {
+      "title": "New listing: NXPC-USD perps",
+      "createdAt": "2025-05-15T08:05:10.466Z",
+      "preview": "",
+      "uuid": "leg4vg0vtd",
+      "category": "Listings",
+      "hash": "leg4vg0vtd"
+    },
+    {
+      "title": "New listing: LAUNCHCOIN-USD perps",
+      "createdAt": "2025-05-14T14:49:23.367Z",
+      "preview": "",
+      "uuid": "xmgq6suen2s",
+      "category": "Listings",
+      "hash": "xmgq6suen2s"
+    },
+    {
+      "title": "Enabled spot SOL and FARTCOIN",
+      "createdAt": "2025-05-13T15:13:27.773Z",
+      "preview": "SOL and FARTCOIN spot trading, deposits, and withdrawals are now live.",
+      "uuid": "ocs43qxyzj",
+      "category": "Updates",
+      "hash": "ocs43qxyzj"
+    },
+    {
+      "title": "New listing: DOOD-USD perps",
+      "createdAt": "2025-05-09T13:21:45.762Z",
+      "preview": "",
+      "uuid": "lpsd6g55mll",
+      "category": "Listings",
+      "hash": "lpsd6g55mll"
+    },
+    {
+      "title": "New fee system and staking tiers ",
+      "createdAt": "2025-04-29T12:18:09.278Z",
+      "preview": "Going live on May 5 at approximately 03:00 UTC",
+      "uuid": "kiz2ho95zl",
+      "category": "Updates",
+      "hash": "kiz2ho95zl"
+    },
+    {
+      "title": "New listing: HYPER-USD, ZORA-USD, and INIT-USD perps",
+      "createdAt": "2025-04-23T14:10:32.894Z",
+      "preview": "",
+      "uuid": "bbmtrl35dzu",
+      "category": "Listings",
+      "hash": "bbmtrl35dzu"
+    },
+    {
+      "title": "New listing: WCT-USD perps",
+      "createdAt": "2025-04-15T15:00:39.051Z",
+      "preview": "",
+      "uuid": "4drqpxbbem",
+      "category": "Listings",
+      "hash": "4drqpxbbem"
+    },
+    {
+      "title": "New listing: BABY-USD and PROMPT-USD perps",
+      "createdAt": "2025-04-12T02:49:02.564Z",
+      "preview": "",
+      "uuid": "1la7we5lhz4",
+      "category": "Listings",
+      "hash": "1la7we5lhz4"
+    },
+    {
+      "title": "Validator vote to delist AI, BADGER, CATI, CYBER, LISTA, PIXEL, RDNT perps",
+      "createdAt": "2025-04-10T08:11:30.962Z",
+      "preview": "",
+      "uuid": "nbego969sc8",
+      "category": "Delistings",
+      "hash": "nbego969sc8"
+    },
+    {
+      "title": "New listing: PAXG-USD perps",
+      "createdAt": "2025-04-06T15:46:21.640Z",
+      "preview": "",
+      "uuid": "kjxyz5e0en",
+      "category": "Listings",
+      "hash": "kjxyz5e0en"
+    },
+    {
+      "title": "Validator vote to delist RLB, HPOS, ORBS, BNT, NTRN, ILV perps",
+      "createdAt": "2025-04-03T06:00:53.664Z",
+      "preview": "",
+      "uuid": "p1ddgy4z4sd",
+      "category": "Delistings",
+      "hash": "p1ddgy4z4sd"
+    },
+    {
+      "title": "Validator vote to delist MYRO perps",
+      "createdAt": "2025-03-28T12:15:23.585Z",
+      "preview": "",
+      "uuid": "i9excsb5cdc",
+      "category": "Delistings",
+      "hash": "i9excsb5cdc"
+    },
+    {
+      "title": "Enabled spot ETH ",
+      "createdAt": "2025-03-27T16:20:03.822Z",
+      "preview": "ETH spot trading, deposits, and withdrawals are now live.",
+      "uuid": "nl3khc7r0xs",
+      "category": "Updates",
+      "hash": "nl3khc7r0xs"
+    },
+    {
+      "title": "New listing: NIL-USD perps",
+      "createdAt": "2025-03-24T13:10:06.018Z",
+      "preview": "",
+      "uuid": "32cpzvwmmh",
+      "category": "Listings",
+      "hash": "32cpzvwmmh"
+    },
+    {
+      "title": "Max leverage updated for various assets",
+      "createdAt": "2025-03-12T10:52:58.417Z",
+      "preview": "Max leverage has been updated for BTC and ETH to 40x and 25x respectively.",
+      "uuid": "b5ocgddcfhq",
+      "category": "Updates",
+      "hash": "b5ocgddcfhq"
+    },
+    {
+      "title": "HyperEVM is live",
+      "createdAt": "2025-02-18T06:00:00.000Z",
+      "preview": "The initial mainnet release of the HyperEVM is live.",
+      "uuid": "wctu4xz6fze",
+      "category": "Updates",
+      "hash": "wctu4xz6fze"
+    },
+    {
+      "title": "Enabled spot BTC",
+      "createdAt": "2025-02-14T16:30:00.000Z",
+      "preview": "BTC spot trading, deposits, and withdrawals are now live.",
+      "uuid": "zpu3p8w3hp",
+      "category": "Updates",
+      "hash": "zpu3p8w3hp"
+    },
+    {
+      "title": "Enabled native multi-sig",
+      "createdAt": "2025-02-12T04:00:00.000Z",
+      "preview": "Hyperliquid now supports native multi-sig transactions, so multiple wallets can collectively sign transactions for an address.",
+      "uuid": "c90kmikrx4b",
+      "category": "Updates",
+      "hash": "c90kmikrx4b"
+    }
+  ]
+}

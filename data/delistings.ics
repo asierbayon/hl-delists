@@ -1,0 +1,1454 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hl-delists//Hyperliquid delistings//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hyperliquid delistings
+X-WR-CALDESC:Delist votes and scheduled delistings from public Hyperliqui
+ d announcements. See https://github.com/asierbayon/hl-delists
+BEGIN:VEVENT
+UID:tg:148:STRAX@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240315T010000Z
+DTEND:20240315T010100Z
+SUMMARY:STRAX scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-03-15T01
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/148\nSTRAX will be delisted on March 15 at 01:00 UT
+ C.
+URL:https://t.me/hyperliquid_announcements/148
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:177:FRIEND@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240502T080000Z
+DTEND:20240502T080100Z
+SUMMARY:FRIEND scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-05-02T08
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/177\nFRIEND-USD will be delisted on May 2 at 08:00 
+ UTC.
+URL:https://t.me/hyperliquid_announcements/177
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:190:FET@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240612T080000Z
+DTEND:20240612T080100Z
+SUMMARY:FET scheduled delist (postponed)
+DESCRIPTION:Status: postponed\nMarket: perp\nEffective time: 2024-06-12T0
+ 8:00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hype
+ rliquid_announcements/190\nFET-USD will be delisted on June 12 at 08:00 
+ UTC. This shorter than usual notice is due to a lack of clarity around t
+ he timing of the merger of FET\, AGIX\, and OCEAN to ASI. All positions 
+ will be settled at mark price\, and open orders will be canceled. Close 
+ any positions beforehand to avoid automatic settlement. After settlement
+ \, FET-USD perps will be delisted\, and no new orders will be accepted.
+URL:https://t.me/hyperliquid_announcements/190
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:200:BANANA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240627T080000Z
+DTEND:20240627T080100Z
+SUMMARY:BANANA scheduled delist (unconfirmed)
+DESCRIPTION:Status: unconfirmed\nMarket: perp\nEffective time: 2024-06-27
+ T08:00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hy
+ perliquid_announcements/200\nBANANA-USD\, NFTI-USD\, OX-USD\, PANDORA-US
+ D\, SHIA-USD\, and UNIBOT-USD\, will be delisted on June 27 at 08:00 UTC
+ . All positions will be settled at mark price\, and open orders will be 
+ canceled. Close any positions beforehand to avoid automatic settlement. 
+ After settlement\, the perps will be delisted\, and no new orders will b
+ e accepted.
+URL:https://t.me/hyperliquid_announcements/200
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:200:NFTI@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240627T080000Z
+DTEND:20240627T080100Z
+SUMMARY:NFTI scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-06-27T08
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/200\nBANANA-USD\, NFTI-USD\, OX-USD\, PANDORA-USD\,
+  SHIA-USD\, and UNIBOT-USD\, will be delisted on June 27 at 08:00 UTC. A
+ ll positions will be settled at mark price\, and open orders will be can
+ celed. Close any positions beforehand to avoid automatic settlement. Aft
+ er settlement\, the perps will be delisted\, and no new orders will be a
+ ccepted.
+URL:https://t.me/hyperliquid_announcements/200
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:200:OX@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240627T080000Z
+DTEND:20240627T080100Z
+SUMMARY:OX scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-06-27T08
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/200\nBANANA-USD\, NFTI-USD\, OX-USD\, PANDORA-USD\,
+  SHIA-USD\, and UNIBOT-USD\, will be delisted on June 27 at 08:00 UTC. A
+ ll positions will be settled at mark price\, and open orders will be can
+ celed. Close any positions beforehand to avoid automatic settlement. Aft
+ er settlement\, the perps will be delisted\, and no new orders will be a
+ ccepted.
+URL:https://t.me/hyperliquid_announcements/200
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:200:PANDORA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240627T080000Z
+DTEND:20240627T080100Z
+SUMMARY:PANDORA scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-06-27T08
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/200\nBANANA-USD\, NFTI-USD\, OX-USD\, PANDORA-USD\,
+  SHIA-USD\, and UNIBOT-USD\, will be delisted on June 27 at 08:00 UTC. A
+ ll positions will be settled at mark price\, and open orders will be can
+ celed. Close any positions beforehand to avoid automatic settlement. Aft
+ er settlement\, the perps will be delisted\, and no new orders will be a
+ ccepted.
+URL:https://t.me/hyperliquid_announcements/200
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:200:SHIA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240627T080000Z
+DTEND:20240627T080100Z
+SUMMARY:SHIA scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-06-27T08
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/200\nBANANA-USD\, NFTI-USD\, OX-USD\, PANDORA-USD\,
+  SHIA-USD\, and UNIBOT-USD\, will be delisted on June 27 at 08:00 UTC. A
+ ll positions will be settled at mark price\, and open orders will be can
+ celed. Close any positions beforehand to avoid automatic settlement. Aft
+ er settlement\, the perps will be delisted\, and no new orders will be a
+ ccepted.
+URL:https://t.me/hyperliquid_announcements/200
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:200:UNIBOT@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240627T080000Z
+DTEND:20240627T080100Z
+SUMMARY:UNIBOT scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-06-27T08
+ :00:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/200\nBANANA-USD\, NFTI-USD\, OX-USD\, PANDORA-USD\,
+  SHIA-USD\, and UNIBOT-USD\, will be delisted on June 27 at 08:00 UTC. A
+ ll positions will be settled at mark price\, and open orders will be can
+ celed. Close any positions beforehand to avoid automatic settlement. Aft
+ er settlement\, the perps will be delisted\, and no new orders will be a
+ ccepted.
+URL:https://t.me/hyperliquid_announcements/200
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:209:RNDR@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240721T110000Z
+DTEND:20240721T110100Z
+SUMMARY:RNDR scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-07-21T11
+ :00:00Z (approximate)\nSettlement described as: mark_price\nSource: http
+ s://t.me/hyperliquid_announcements/209\nRNDR-USD will be delisted on Jul
+ y 21 at 08:00 UTC. All positions will be settled at mark price\, and ope
+ n orders will be canceled. Close any positions beforehand to avoid autom
+ atic settlement. After settlement\, the perps will be delisted\, and no 
+ new orders will be accepted.
+URL:https://t.me/hyperliquid_announcements/209
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:217:CANTO@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240813T083000Z
+DTEND:20240813T083100Z
+SUMMARY:CANTO scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-08-13T08
+ :30:00Z (approximate)\nSettlement described as: mark_price\nSource: http
+ s://t.me/hyperliquid_announcements/217\nCANTO-USD will be delisted on Au
+ gust 13 at approximately 08:30 UTC. All positions will be settled at mar
+ k price\, and open orders will be canceled. Close any positions beforeha
+ nd to avoid automatic settlement. After settlement\, the perps will be d
+ elisted\, and no new orders will be accepted.
+URL:https://t.me/hyperliquid_announcements/217
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:222:MATIC@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20240909T073000Z
+DTEND:20240909T073100Z
+SUMMARY:MATIC scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-09-09T07
+ :30:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/222\nMATIC-USD will be delisted on September 9 at 0
+ 7:30 UTC as part of Polygon's migration from MATIC to POL.
+URL:https://t.me/hyperliquid_announcements/222
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:265:LOOM@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20241212T083000Z
+DTEND:20241212T083100Z
+SUMMARY:LOOM scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-12-12T08
+ :30:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/265\nLOOM-USD will be delisted on December 12 at 08
+ :30 UTC. All positions will be settled at mark price\, and open orders w
+ ill be canceled. Close any positions beforehand to avoid automatic settl
+ ement. After settlement\, LOOM-USD perps will be delisted\, and no new o
+ rders will be accepted.
+URL:https://t.me/hyperliquid_announcements/265
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:273:BLZ@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20241222T083000Z
+DTEND:20241222T083100Z
+SUMMARY:BLZ scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2024-12-22T08
+ :30:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/273\nBLZ-USD will be delisted on December 22 at 08:
+ 30 UTC. All positions will be settled at mark price\, and open orders wi
+ ll be canceled. Close any positions beforehand to avoid automatic settle
+ ment. After settlement\, BLZ-USD perps will be delisted\, and no new ord
+ ers will be accepted.
+URL:https://t.me/hyperliquid_announcements/273
+END:VEVENT
+BEGIN:VEVENT
+UID:tg:282:FTM@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250112T033000Z
+DTEND:20250112T033100Z
+SUMMARY:FTM scheduled delist (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nEffective time: 2025-01-12T03
+ :30:00Z\nSettlement described as: mark_price\nSource: https://t.me/hyper
+ liquid_announcements/282\nFTM-USD will be delisted on January 12 at 09:3
+ 0 UTC as part of the rebranding from FTM to S. All positions will be set
+ tled at mark price\, and open orders will be canceled. Close any positio
+ ns beforehand to avoid automatic settlement. After settlement\, FTM-USD 
+ perps will be delisted\, and no new orders will be accepted.
+URL:https://t.me/hyperliquid_announcements/282
+END:VEVENT
+BEGIN:VEVENT
+UID:app:i9excsb5cdc:MYRO@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250329T130000Z
+DTEND:20250329T130100Z
+SUMMARY:MYRO delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-03-29T13:00:0
+ 0Z (approximate)\nEffective time: 2025-03-29T13:16:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/i9excsb5cdc\nAs a demonstration of the 
+ new primitive\, the Hyper Foundation validators 2-5 will vote to delist 
+ MYRO perps around 13:00 UTC on March 29. Hyper Foundation validator 1 wi
+ ll abstain from voting until delegations to initial Delegation Program p
+ articipants are complete.
+URL:https://app.hyperliquid.xyz/announcement/i9excsb5cdc
+END:VEVENT
+BEGIN:VEVENT
+UID:app:p1ddgy4z4sd:BNT@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250404T120000Z
+DTEND:20250404T120100Z
+SUMMARY:BNT delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-04T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-04T12:12:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/p1ddgy4z4sd\nHyperliquid validators wil
+ l be voting on whether to delist RLB\, HPOS\, ORBS\, BNT\, NTRN\, and IL
+ V perps around 12:00 UTC on April 4. This permissionless stake-based vot
+ e weighting primitive is built natively into HyperCore and technically r
+ equires no offchain coordination. Discussion takes place in the governan
+ ce channel of the Hyperliquid Discord server. Like on other chains\, mos
+ t validators will likely make their intended votes clear offchain before
+ hand to provide users clarity and predictabil...
+URL:https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd
+END:VEVENT
+BEGIN:VEVENT
+UID:app:p1ddgy4z4sd:HPOS@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250404T120000Z
+DTEND:20250404T120100Z
+SUMMARY:HPOS delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-04T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-04T12:12:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/p1ddgy4z4sd\nHyperliquid validators wil
+ l be voting on whether to delist RLB\, HPOS\, ORBS\, BNT\, NTRN\, and IL
+ V perps around 12:00 UTC on April 4. This permissionless stake-based vot
+ e weighting primitive is built natively into HyperCore and technically r
+ equires no offchain coordination. Discussion takes place in the governan
+ ce channel of the Hyperliquid Discord server. Like on other chains\, mos
+ t validators will likely make their intended votes clear offchain before
+ hand to provide users clarity and predictabil...
+URL:https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd
+END:VEVENT
+BEGIN:VEVENT
+UID:app:p1ddgy4z4sd:ILV@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250404T120000Z
+DTEND:20250404T120100Z
+SUMMARY:ILV delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-04T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-04T12:12:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/p1ddgy4z4sd\nHyperliquid validators wil
+ l be voting on whether to delist RLB\, HPOS\, ORBS\, BNT\, NTRN\, and IL
+ V perps around 12:00 UTC on April 4. This permissionless stake-based vot
+ e weighting primitive is built natively into HyperCore and technically r
+ equires no offchain coordination. Discussion takes place in the governan
+ ce channel of the Hyperliquid Discord server. Like on other chains\, mos
+ t validators will likely make their intended votes clear offchain before
+ hand to provide users clarity and predictabil...
+URL:https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd
+END:VEVENT
+BEGIN:VEVENT
+UID:app:p1ddgy4z4sd:NTRN@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250404T120000Z
+DTEND:20250404T120100Z
+SUMMARY:NTRN delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-04T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-04T12:12:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/p1ddgy4z4sd\nHyperliquid validators wil
+ l be voting on whether to delist RLB\, HPOS\, ORBS\, BNT\, NTRN\, and IL
+ V perps around 12:00 UTC on April 4. This permissionless stake-based vot
+ e weighting primitive is built natively into HyperCore and technically r
+ equires no offchain coordination. Discussion takes place in the governan
+ ce channel of the Hyperliquid Discord server. Like on other chains\, mos
+ t validators will likely make their intended votes clear offchain before
+ hand to provide users clarity and predictabil...
+URL:https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd
+END:VEVENT
+BEGIN:VEVENT
+UID:app:p1ddgy4z4sd:ORBS@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250404T120000Z
+DTEND:20250404T120100Z
+SUMMARY:ORBS delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-04T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-04T12:12:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/p1ddgy4z4sd\nHyperliquid validators wil
+ l be voting on whether to delist RLB\, HPOS\, ORBS\, BNT\, NTRN\, and IL
+ V perps around 12:00 UTC on April 4. This permissionless stake-based vot
+ e weighting primitive is built natively into HyperCore and technically r
+ equires no offchain coordination. Discussion takes place in the governan
+ ce channel of the Hyperliquid Discord server. Like on other chains\, mos
+ t validators will likely make their intended votes clear offchain before
+ hand to provide users clarity and predictabil...
+URL:https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd
+END:VEVENT
+BEGIN:VEVENT
+UID:app:p1ddgy4z4sd:RLB@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250404T120000Z
+DTEND:20250404T120100Z
+SUMMARY:RLB delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-04T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-04T12:12:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/p1ddgy4z4sd\nHyperliquid validators wil
+ l be voting on whether to delist RLB\, HPOS\, ORBS\, BNT\, NTRN\, and IL
+ V perps around 12:00 UTC on April 4. This permissionless stake-based vot
+ e weighting primitive is built natively into HyperCore and technically r
+ equires no offchain coordination. Discussion takes place in the governan
+ ce channel of the Hyperliquid Discord server. Like on other chains\, mos
+ t validators will likely make their intended votes clear offchain before
+ hand to provide users clarity and predictabil...
+URL:https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:AI@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:AI delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:BADGER@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:BADGER delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:CATI@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:CATI delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:CYBER@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:CYBER delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:LISTA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:LISTA delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:PIXEL@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:PIXEL delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nbego969sc8:RDNT@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250411T120000Z
+DTEND:20250411T120100Z
+SUMMARY:RDNT delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-04-11T12:00:0
+ 0Z (approximate)\nEffective time: 2025-04-11T12:07:00Z\nSource: https://
+ app.hyperliquid.xyz/announcement/nbego969sc8\nAs discussed in the Discor
+ d governance channel\, validators will be voting whether to delist AI\, 
+ BADGER\, CATI\, CYBER\, LISTA\, PIXEL\, and RDNT around 12:00 UTC on Apr
+ il 11.
+URL:https://app.hyperliquid.xyz/announcement/nbego969sc8
+END:VEVENT
+BEGIN:VEVENT
+UID:app:igatpkcw9m:kDOGS@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250804T100000Z
+DTEND:20250804T100100Z
+SUMMARY:kDOGS delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-08-04T10:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/igatp
+ kcw9m\nAs discussed in the Discord governance channel\, using stalequant
+ 's methodology for reference\, validators will be voting on whether to d
+ elist kDOGS\, OGN\, REQ\, and STG around 10:00 UTC on Aug 4.
+URL:https://app.hyperliquid.xyz/announcement/igatpkcw9m
+END:VEVENT
+BEGIN:VEVENT
+UID:app:igatpkcw9m:OGN@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250804T100000Z
+DTEND:20250804T100100Z
+SUMMARY:OGN delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-08-04T10:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/igatp
+ kcw9m\nAs discussed in the Discord governance channel\, using stalequant
+ 's methodology for reference\, validators will be voting on whether to d
+ elist kDOGS\, OGN\, REQ\, and STG around 10:00 UTC on Aug 4.
+URL:https://app.hyperliquid.xyz/announcement/igatpkcw9m
+END:VEVENT
+BEGIN:VEVENT
+UID:app:igatpkcw9m:REQ@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250804T100000Z
+DTEND:20250804T100100Z
+SUMMARY:REQ delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-08-04T10:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/igatp
+ kcw9m\nAs discussed in the Discord governance channel\, using stalequant
+ 's methodology for reference\, validators will be voting on whether to d
+ elist kDOGS\, OGN\, REQ\, and STG around 10:00 UTC on Aug 4.
+URL:https://app.hyperliquid.xyz/announcement/igatpkcw9m
+END:VEVENT
+BEGIN:VEVENT
+UID:app:igatpkcw9m:STG@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250804T100000Z
+DTEND:20250804T100100Z
+SUMMARY:STG delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-08-04T10:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/igatp
+ kcw9m\nAs discussed in the Discord governance channel\, using stalequant
+ 's methodology for reference\, validators will be voting on whether to d
+ elist kDOGS\, OGN\, REQ\, and STG around 10:00 UTC on Aug 4.
+URL:https://app.hyperliquid.xyz/announcement/igatpkcw9m
+END:VEVENT
+BEGIN:VEVENT
+UID:app:8pcq8szcgpm:MKR@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250905T100000Z
+DTEND:20250905T100100Z
+SUMMARY:MKR delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-09-05T10:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/8pcq8
+ szcgpm\nAs discussed in the Discord governance channel\, validators will
+  be voting on whether to delist MKR as part of the MKR -> SKY conversion
+  around 10:00 UTC on Sep 5.
+URL:https://app.hyperliquid.xyz/announcement/8pcq8szcgpm
+END:VEVENT
+BEGIN:VEVENT
+UID:app:xsn2xu4g5g:NEIROETH@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250925T090000Z
+DTEND:20250925T090100Z
+SUMMARY:NEIROETH delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-09-25T09:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/xsn2x
+ u4g5g\nAs discussed in the Discord governance channel\, validators will 
+ be voting on whether to delist OMNI and NEIROETH around 9:00 UTC on Sep 
+ 25.
+URL:https://app.hyperliquid.xyz/announcement/xsn2xu4g5g
+END:VEVENT
+BEGIN:VEVENT
+UID:app:xsn2xu4g5g:OMNI@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20250925T090000Z
+DTEND:20250925T090100Z
+SUMMARY:OMNI delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-09-25T09:00:0
+ 0Z (approximate)\nSource: https://app.hyperliquid.xyz/announcement/xsn2x
+ u4g5g\nAs discussed in the Discord governance channel\, validators will 
+ be voting on whether to delist OMNI and NEIROETH around 9:00 UTC on Sep 
+ 25.
+URL:https://app.hyperliquid.xyz/announcement/xsn2xu4g5g
+END:VEVENT
+BEGIN:VEVENT
+UID:app:w50kcqiztvk:LAUNCHCOIN@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20251025T070000Z
+DTEND:20251025T070100Z
+SUMMARY:LAUNCHCOIN delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-10-25T07:00:0
+ 0Z (approximate)\nSettlement described as: mark_price\nSource: https://a
+ pp.hyperliquid.xyz/announcement/w50kcqiztvk\nHyperliquid validators will
+  be voting on whether to delist LAUNCHCOIN perps around 7:00 UTC on Octo
+ ber 25. This permissionless stake-based vote weighting primitive is buil
+ t natively into HyperCore and technically requires no offchain coordinat
+ ion.
+URL:https://app.hyperliquid.xyz/announcement/w50kcqiztvk
+END:VEVENT
+BEGIN:VEVENT
+UID:app:3zhbwdg3j94:AI16Z@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20251106T083000Z
+DTEND:20251106T083100Z
+SUMMARY:AI16Z delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2025-11-06T08:30:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/3zhbwdg3j94\nValidators will vote on
+  whether to delist AI16Z around 8:30 UTC on Nov 6. AI16Z is being rebran
+ ded to ELIZAOS.
+URL:https://app.hyperliquid.xyz/announcement/3zhbwdg3j94
+END:VEVENT
+BEGIN:VEVENT
+UID:app:frkbnmlckgv:FXS@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260106T073000Z
+DTEND:20260106T073100Z
+SUMMARY:FXS delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-01-06T07:30:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/frkbnmlckgv\nValidators will vote on
+  whether to delist FXS around 7:30 UTC on 6 January. FXS is being rebran
+ ded to FRAX.
+URL:https://app.hyperliquid.xyz/announcement/frkbnmlckgv
+END:VEVENT
+BEGIN:VEVENT
+UID:app:f1xw9xsh1e:OM@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260223T080000Z
+DTEND:20260223T080100Z
+SUMMARY:OM delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-02-23T08:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/f1xw9xsh1e\nValidators will vote on 
+ whether to delist OM around 8:00 UTC on 23 February. OM is being rebrand
+ ed to MANTRA. This permissionless stake-based vote weighting primitive i
+ s built natively into HyperCore and technically requires no offchain coo
+ rdination. If validators vote to delist an asset\, the perps will settle
+  to the 1 hour time weighted spot oracle price before delisting\, and op
+ en orders will be canceled. Close any positions beforehand to avoid auto
+ matic settlement. After settlement\, no new ...
+URL:https://app.hyperliquid.xyz/announcement/f1xw9xsh1e
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:MAV@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:MAV delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:MAVIA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:MAVIA delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:MEW@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:MEW delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:PROMPT@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:PROMPT delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:SCR@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:SCR delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:TST@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:TST delist vote (superseded)
+DESCRIPTION:Status: superseded\nMarket: perp\nVote time: 2026-05-05T09:00
+ :00Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: htt
+ ps://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote 
+ on whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY
+ \, ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology 
+ and community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:USTC@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:USTC delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:YZY@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:YZY delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:15voh4lxgo2:ZEREBRO@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260505T090000Z
+DTEND:20260505T090100Z
+SUMMARY:ZEREBRO delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-05T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/15voh4lxgo2\nValidators will vote on
+  whether to delist MAV\, MAVIA\, MEW\, PROMPT\, SCR\, TST\, USTC\, YZY\,
+  ZEREBRO on May 5 around 9:00 UTC\, based on stalequant's methodology an
+ d community request.
+URL:https://app.hyperliquid.xyz/announcement/15voh4lxgo2
+END:VEVENT
+BEGIN:VEVENT
+UID:app:5w9usyzab1b:BLAST@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260525T090000Z
+DTEND:20260525T090100Z
+SUMMARY:BLAST delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-25T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/5w9usyzab1b\nValidators will vote on
+  whether to delist BLAST\, CHILLGUY\, FTT\, and TST on May 25 around 9:0
+ 0 UTC\, based on community member stalequant's methodology and community
+  request.
+URL:https://app.hyperliquid.xyz/announcement/5w9usyzab1b
+END:VEVENT
+BEGIN:VEVENT
+UID:app:5w9usyzab1b:CHILLGUY@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260525T090000Z
+DTEND:20260525T090100Z
+SUMMARY:CHILLGUY delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-25T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/5w9usyzab1b\nValidators will vote on
+  whether to delist BLAST\, CHILLGUY\, FTT\, and TST on May 25 around 9:0
+ 0 UTC\, based on community member stalequant's methodology and community
+  request.
+URL:https://app.hyperliquid.xyz/announcement/5w9usyzab1b
+END:VEVENT
+BEGIN:VEVENT
+UID:app:5w9usyzab1b:FTT@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260525T090000Z
+DTEND:20260525T090100Z
+SUMMARY:FTT delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-25T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/5w9usyzab1b\nValidators will vote on
+  whether to delist BLAST\, CHILLGUY\, FTT\, and TST on May 25 around 9:0
+ 0 UTC\, based on community member stalequant's methodology and community
+  request.
+URL:https://app.hyperliquid.xyz/announcement/5w9usyzab1b
+END:VEVENT
+BEGIN:VEVENT
+UID:app:5w9usyzab1b:TST@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260525T090000Z
+DTEND:20260525T090100Z
+SUMMARY:TST delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-05-25T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/5w9usyzab1b\nValidators will vote on
+  whether to delist BLAST\, CHILLGUY\, FTT\, and TST on May 25 around 9:0
+ 0 UTC\, based on community member stalequant's methodology and community
+  request.
+URL:https://app.hyperliquid.xyz/announcement/5w9usyzab1b
+END:VEVENT
+BEGIN:VEVENT
+UID:app:q29gexq5s1h:TON@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260615T090000Z
+DTEND:20260615T090100Z
+SUMMARY:TON delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-06-15T09:00:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/q29gexq5s1h\nValidators will vote on
+  whether to delist TON on June 15 around 9:00 UTC. TON is being rebrande
+ d to GRAM. This permissionless stake-based vote weighting primitive is b
+ uilt natively into HyperCore and technically requires no offchain coordi
+ nation. If validators vote to delist an asset\, the perps will settle to
+  the 1 hour time weighted spot oracle price before the scheduled delisti
+ ng voting time\, and open orders will be canceled. Close any positions b
+ eforehand to avoid automatic settlement. Aft...
+URL:https://app.hyperliquid.xyz/announcement/q29gexq5s1h
+END:VEVENT
+BEGIN:VEVENT
+UID:app:6jtili4w5t:ARK@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260625T093000Z
+DTEND:20260625T093100Z
+SUMMARY:ARK delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-06-25T09:30:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/6jtili4w5t\nValidators will vote on 
+ whether to delist ARK and DOOD around 25 June 2026 at 9:30 UTC based on 
+ stalequant's methodology and community request. If validators vote to de
+ list an asset\, the perps will settle to the 1 hour time weighted spot o
+ racle price before the scheduled delisting voting time\, and open orders
+  will be canceled. Close any positions beforehand to avoid automatic set
+ tlement. After settlement\, no new orders will be accepted.
+URL:https://app.hyperliquid.xyz/announcement/6jtili4w5t
+END:VEVENT
+BEGIN:VEVENT
+UID:app:6jtili4w5t:DOOD@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260625T093000Z
+DTEND:20260625T093100Z
+SUMMARY:DOOD delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-06-25T09:30:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/6jtili4w5t\nValidators will vote on 
+ whether to delist ARK and DOOD around 25 June 2026 at 9:30 UTC based on 
+ stalequant's methodology and community request. If validators vote to de
+ list an asset\, the perps will settle to the 1 hour time weighted spot o
+ racle price before the scheduled delisting voting time\, and open orders
+  will be canceled. Close any positions beforehand to avoid automatic set
+ tlement. After settlement\, no new orders will be accepted.
+URL:https://app.hyperliquid.xyz/announcement/6jtili4w5t
+END:VEVENT
+BEGIN:VEVENT
+UID:app:r8bdggoyih:IP@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260629T093000Z
+DTEND:20260629T093100Z
+SUMMARY:IP delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-06-29T09:30:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/r8bdggoyih\nValidators will vote on 
+ whether to delist IP on June 29 around 9:30 UTC. IP is being rebranded t
+ o DATA. This permissionless stake-based vote weighting primitive is buil
+ t natively into HyperCore and technically requires no offchain coordinat
+ ion. If validators vote to delist an asset\, the perps will settle to th
+ e 1 hour time weighted spot oracle price before the scheduled delisting 
+ voting time\, and open orders will be canceled. Close any positions befo
+ rehand to avoid automatic settlement. After...
+URL:https://app.hyperliquid.xyz/announcement/r8bdggoyih
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:AMZN@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:AMZN hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:CAR@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:CAR hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:EWY@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:EWY hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:GOLD@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:GOLD hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:GOOGLE@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:GOOGLE hip3 sunset (elapsed)
+DESCRIPTION:Status: elapsed\nMarket: hip3\nEffective time: 2026-06-30T13:
+ 45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAll
+  Dreamcash (cash) markets will be wound down and halted for trading star
+ ting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement 
+ mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\,
+  CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\, 
+ GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT\
+ , TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:HOOD@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:HOOD hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:INTC@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:INTC hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:KWEB@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:KWEB hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:META@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:META hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:MSFT@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:MSFT hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:NVDA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:NVDA hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:SILVER@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:SILVER hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:TSLA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:TSLA hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:USA500@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:USA500 hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:ydvor1grh4:WTI@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260630T134500Z
+DTEND:20260630T134600Z
+SUMMARY:cash:WTI hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-06-30T13
+ :45:00Z\nSource: https://app.hyperliquid.xyz/announcement/ydvor1grh4\nAl
+ l Dreamcash (cash) markets will be wound down and halted for trading sta
+ rting from 30 June 2026 at 13:45 UTC. Refer here for the full settlement
+  mechanics announced by Dreamcash. Dreamcash markets include: KWEB-USDT\
+ , CAR-USDT\, EWY-USDT\, INTC-USDT\, MSFT-USDT\, SILVER-USDT\, WTI-USDT\,
+  GOLD-USDT\, AMZN-USDT\, META-USDT\, NVDA-USDT\, GOOGLE-USDT\, HOOD-USDT
+ \, TSLA-USDT\, and USA500-USDT.
+URL:https://app.hyperliquid.xyz/announcement/ydvor1grh4
+END:VEVENT
+BEGIN:VEVENT
+UID:app:rl469tntie:VINE@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260826T093000Z
+DTEND:20260826T093100Z
+SUMMARY:VINE delist vote (delisted)
+DESCRIPTION:Status: delisted\nMarket: perp\nVote time: 2026-08-26T09:30:0
+ 0Z (approximate)\nSettlement described as: 1h_oracle_twap\nSource: https
+ ://app.hyperliquid.xyz/announcement/rl469tntie\nValidators will vote on 
+ whether to delist VINE around 9:30 UTC on 26 Aug based on stalequant's m
+ ethodology. If validators vote to delist an asset\, the perps will settl
+ e to the 1 hour time weighted spot oracle price before the scheduled del
+ isting voting time\, and open orders will be canceled. Close any positio
+ ns beforehand to avoid automatic settlement. After settlement\, no new o
+ rders will be accepted.
+URL:https://app.hyperliquid.xyz/announcement/rl469tntie
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:1000PEPE@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:1000PEPE hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:ADA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:ADA hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:BASED@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:BASED hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:BNB@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:BNB hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:BTC@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:BTC hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:DOGE@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:DOGE hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:ENA@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:ENA hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:ETH@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:ETH hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:FARTCOIN@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:FARTCOIN hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:HYPE@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:HYPE hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:LINK@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:LINK hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:LTC@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:LTC hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:PUMP@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:PUMP hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:SOL@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:SOL hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:SUI@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:SUI hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:XPL@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:XPL hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:XRP@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:XRP hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+BEGIN:VEVENT
+UID:app:nkbbby8yrh:ZEC@hl-delists
+DTSTAMP:20261124T071500Z
+DTSTART:20260831T100000Z
+DTEND:20260902T150000Z
+SUMMARY:hyna:ZEC hip3 sunset (delisted)
+DESCRIPTION:Status: delisted\nMarket: hip3\nEffective time: 2026-08-31T10
+ :00:00Z\nWindow end: 2026-09-02T15:00:00Z\nSettlement described as: fina
+ l_mark_price\nSource: https://app.hyperliquid.xyz/announcement/nkbbby8yr
+ h\nAll HyENA (hyna) markets will be wound down and halted for trading st
+ arting from 31 August 2026 at 10:00 UTC. Traders can close or adjust pos
+ itions from now until then. Markets are delisted sequentially\, with one
+  market entering delisting pricing each hour from 10:00 to 15:00 UTC dai
+ ly\, concluding on 02 September 2026 at 15:00 UTC. No action is required
+ \; open positions settle at the final mark price\, and USDE margin is re
+ turned to spot balance. Refer here for the full settlement mechanics ann
+ ...
+URL:https://app.hyperliquid.xyz/announcement/nkbbby8yrh
+END:VEVENT
+END:VCALENDAR

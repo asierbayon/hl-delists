@@ -1,0 +1,146 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "HL/MEDIA Hyperliquid announcements",
+  "home_page_url": "https://data.hlmedia.io/announcements/",
+  "feed_url": "https://data.hlmedia.io/feeds/announcements.json",
+  "description": "Newest posts from Hyperliquid's official Telegram announcements channel. Long posts are shortened; each item links to the original post.",
+  "icon": "https://data.hlmedia.io/icon-512.png",
+  "favicon": "https://data.hlmedia.io/favicon.svg",
+  "language": "en",
+  "_hlmedia": {
+    "status": "ok",
+    "note": "Newest posts from Hyperliquid’s official Telegram announcements channel, as named in the Hyperliquid docs. Long posts are shortened; read the original for full context."
+  },
+  "items": [
+    {
+      "id": "https://t.me/hyperliquid_announcements/604",
+      "url": "https://t.me/hyperliquid_announcements/604",
+      "title": "As a thank you to the most active users and builders over the past year - if you see a…",
+      "content_text": "As a thank you to the most active users and builders over the past year - if you see a button with a gift box emoji on the app.hyperliquid.xyz/portfolio page and would like to receive a physical package, please sign the message and follow-up via Discord or TG. You may need to hard refresh to update the webpage.\n\nSome users have multiple addresses that qualify; please only sign the message for one address. Shipping excludes persons in restricted jurisdictions and is scheduled to arrive around the holiday season (December-January).",
+      "date_published": "2026-11-20T05:16:31.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/603",
+      "url": "https://t.me/hyperliquid_announcements/603",
+      "title": "Weekly Update",
+      "content_text": "Weekly Update\n\nProduct & Tech\n+ As a reminder, those running nanoreth should update to the latest version to ensure compatibility with hl-node. No action needed for hl-node users.\n\nNew Teams on Hyperliquid\n+ Bitso integrated Hyperliquid perps via builder codes: https://x.com/Bitso/status/2119900353713840198\n+ Elysium launched as an L2 on Hyperliquid: https://x.com/Enter_Elysium/status/2119777337952841977\n+ Delpho's yield products are live on HyperEVM: https://x.com/delpho_labs/status/2120973543781372099\n+ Alchemy added support for HyperCore data:…",
+      "date_published": "2026-11-16T09:09:23.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/602",
+      "url": "https://t.me/hyperliquid_announcements/602",
+      "title": "Weekly Update",
+      "content_text": "Weekly Update\n\nTrading\n+ ICE x trade[xyz] announced their intention to deploy HIP-3* markets: https://x.com/HyperliquidX/status/2115782848192118861\n+ Update to TWAPs: TWAP orders with a stop price will be paused instead of canceled when the stop price is breached. This allows TWAP orders to resume if the stop price is no longer breached within the TWAP duration\n\nNew Teams on HyperEVM & HyperCore\n+ Pumpfun integrated Hyperliquid perps via builder codes: https://x.com/Pumpfun/status/2115447518591103261\n+ EQX deployed RWA spot assets on HyperCore: https://x.com/eqxlabs/status/2114711144124281284…",
+      "date_published": "2026-11-03T07:31:00.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/601",
+      "url": "https://t.me/hyperliquid_announcements/601",
+      "title": "Intercontinental Exchange (ICE) and trade[XYZ] have announced their plan to use…",
+      "content_text": "Intercontinental Exchange (ICE) and trade[XYZ] have announced their plan to use Hyperliquid as the infrastructure layer to deploy perpetual futures markets for US traders across crypto, equities, commodities, foreign exchange, and other real-world assets, subject to regulatory approvals. ICE operates NYSE and some of the largest exchanges and clearing houses globally.\n\nIn this structure:\n+ Hyperliquid serves as the underlying technology infrastructure via HIP-3*\n+ trade[XYZ] designs and implements the markets\n+ ICE operates the regulated market and clearing structure\n\nExisting trade[XYZ]…",
+      "date_published": "2026-10-29T15:34:40.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/600",
+      "url": "https://t.me/hyperliquid_announcements/600",
+      "title": "Weekly Update",
+      "content_text": "Weekly Update\n\nProduct & Tech\n+ See the API announcements channel for various technical updates re: write priority fees, gossip priority slots, optional sub-builders, etc.\n\nTrading\n+ Payward, the parent company of Kraken, announced its intention to be the first CFTC-regulated deployer on HIP-3* markets\n+ XTEN hyperp was listed\n\nCommunity Highlights\n+ The India community is organizing an event in Mumbai on November 3: https://x.com/Hyperliquid_In/status/2112491773935472768\n+ HL Radio (by HL Global) recordings from the HL Community Event are live:…",
+      "date_published": "2026-10-28T09:22:18.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/599",
+      "url": "https://t.me/hyperliquid_announcements/599",
+      "title": "By community request, Extended ($XTEN) hyperp has been listed with up to 3x leverage.",
+      "content_text": "By community request, Extended ($XTEN) hyperp has been listed with up to 3x leverage.\n\nAs a reminder, hyperps do not rely on any external data for the oracle price. Hyperps trade like perpetual contracts that users are familiar with, but do not require an external spot or index oracle price. Instead, the funding rate is determined relative to a moving average of the hyperp mark price. This makes the hyperp price more stable and less susceptible to manipulation, unlike usual pre-launch futures.\n\nWhen trading hyperps, funding rates are important to consider. If there is heavy price momentum in…",
+      "date_published": "2026-10-27T06:50:07.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/598",
+      "url": "https://t.me/hyperliquid_announcements/598",
+      "title": "Payward, the parent company of Kraken, announced its intention to be the first…",
+      "content_text": "Payward, the parent company of Kraken, announced its intention to be the first CFTC-regulated deployer on HIP-3* markets. Payward will use Hyperliquid as the infrastructure layer to deploy perpetual futures markets for US clients. Subject to regulatory approval, Bitnomial, Payward’s CFTC-regulated DCM and DCO, would act as the HIP-3* deployer: creating, owning, and administering the markets and clearing and settling the contracts. If approved, NinjaTrader Clearing, Payward’s CFTC-registered FCM, would carry client accounts.\n\nHIP-3 will support optional deployer configuration for permissioned…",
+      "date_published": "2026-10-26T17:36:53.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/597",
+      "url": "https://t.me/hyperliquid_announcements/597",
+      "title": "Weekly Update",
+      "content_text": "Weekly Update\n\nProduct & Tech\n+ See the API announcements channel for updates to write priority fees\n\nNew Teams on HyperEVM & HyperCore\n+ Ensemble vaults are live on HyperEVM: https://x.com/ensembleio/status/2105313393393737951\n\nCommunity Highlights\n+ Jeff spoke about Hyperliquid on the Bloomberg Odd Lots podcast: https://x.com/TheStalwart/status/2110698207684813053\n+ Jeff's fireside at Token2049 was uploaded to YouTube: https://www.youtube.com/watch?v=t5s7LICMJKE\n+ Jeff spoke at DC Fintech Week in a fireside\n+ Racing in Hypurr World got an update:…",
+      "date_published": "2026-10-20T07:52:45.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/596",
+      "url": "https://t.me/hyperliquid_announcements/596",
+      "title": "Weekly Update",
+      "content_text": "Weekly Update\n\nNew Teams on HyperEVM & HyperCore\n+ papertrade is live on HyperEVM:\nhttps://x.com/papertrade_xyz/status/2108852108766437759\n+ Xverse integrated Hyperliquid perps via builder codes: https://x.com/xverse/status/2108041688925229554\n\nCommunity Highlights\n+ Thank you to everyone who was part of the HL Community Event! https://x.com/HyperliquidX/status/2109326236145287621\n+ Jeff spoke at a fireside moderated by Shaunda at Blockworks DAS: https://x.com/shaundadevens/status/2107850028995985547?s=20\nOther recordings will be shared once available by the respective organizers",
+      "date_published": "2026-10-14T02:29:02.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    },
+    {
+      "id": "https://t.me/hyperliquid_announcements/594",
+      "url": "https://t.me/hyperliquid_announcements/594",
+      "title": "The Hyperliquid community event will take place on the evening of October 5 in Singapore:…",
+      "content_text": "The Hyperliquid community event will take place on the evening of October 5 in Singapore: luma.com/HL2026Community\n\nThis is a chance to spend time with the builders and users who've shaped the ecosystem\n\nThe event is oversubscribed; you will only be able to attend if your RSVP was accepted. If your RSVP was accepted but you're no longer able to attend, please cancel your RSVP to make space for others",
+      "date_published": "2026-09-30T06:36:08.000Z",
+      "authors": [
+        {
+          "name": "Hyperliquid Announcements · Telegram",
+          "url": "https://t.me/hyperliquid_announcements"
+        }
+      ]
+    }
+  ]
+}

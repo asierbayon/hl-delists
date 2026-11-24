@@ -1,0 +1,8 @@
+{
+  "title": "Validator vote to delist AI, BADGER, CATI, CYBER, LISTA, PIXEL, RDNT perps",
+  "preview": "",
+  "content": "{\"blocks\":[{\"key\":\"fgur1\",\"text\":\"Hyperliquid validators will be voting on whether to delist AI, BADGER, CATI, CYBER, LISTA, PIXEL, and RDNT perps around 12:00 UTC on April 11. This permissionless stake-based vote weighting primitive is built natively into HyperCore and technically requires no offchain coordination. Discussion takes place in the governance channel of the Hyperliquid Discord server. Like on other chains, most validators will likely make their intended votes clear offchain beforehand to provide users clarity and predictability. \",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":0,\"length\":59,\"style\":\"color-rgb(255,255,255)\"},{\"offset\":106,\"length\":409,\"style\":\"color-rgb(255,255,255)\"},{\"offset\":0,\"length\":59,\"style\":\"bgcolor-rgb(15,26,31)\"},{\"offset\":106,\"length\":409,\"style\":\"bgcolor-rgb(15,26,31)\"},{\"offset\":0,\"length\":59,\"style\":\"fontsize-14\"},{\"offset\":106,\"length\":409,\"style\":\"fontsize-14\"},{\"offset\":0,\"length\":59,\"style\":\"fontfamily-OurFont\"},{\"offset\":106,\"length\":409,\"style\":\"fontfamily-OurFont\"},{\"offset\":59,\"length\":47,\"style\":\"color-oklab(0.8830420.00118408-0.00389016)\"},{\"offset\":59,\"length\":47,\"style\":\"bgcolor-oklab(0.6788880.00325716-0.011175/0.0784314)\"},{\"offset\":59,\"length\":47,\"style\":\"fontsize-16\"},{\"offset\":59,\"length\":47,\"style\":\"fontfamily-Inter, sans-serif\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+  "category": "Delistings",
+  "createdAt": "2025-04-10T08:11:30.962Z",
+  "uuid": "nbego969sc8"
+}

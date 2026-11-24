@@ -350,8 +350,12 @@ def _check() -> int:
     problems = []
     if (DATA / "delistings.rss").read_text(encoding="utf-8") != render_rss(committed):
         problems.append("data/delistings.rss")
-    if (DATA / "delistings.ics").read_text(encoding="utf-8") != render_ics(committed):
+    # iCalendar is stored with CRLF. Text mode would hide those carriage returns.
+    ics_disk = (DATA / "delistings.ics").read_bytes()
+    if ics_disk != render_ics(committed).encode("utf-8"):
         problems.append("data/delistings.ics")
+    if (DOCS / "delistings.ics").read_bytes() != ics_disk:
+        problems.append("docs/delistings.ics")
     if (DOCS / "index.html").read_text(encoding="utf-8") != render_html(committed):
         problems.append("docs/index.html")
     if (DOCS / "delistings.json").read_text(encoding="utf-8") != committed_path.read_text(encoding="utf-8"):
