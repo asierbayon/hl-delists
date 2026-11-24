@@ -1,8 +1,7 @@
-"""RSS, iCalendar, and a small HTML page for the delist calendar."""
+"""RSS, iCalendar, and a static HTML page for the delist calendar."""
 
 from __future__ import annotations
 
-import html
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from typing import Any
@@ -90,59 +89,487 @@ def render_ics(document: dict[str, Any]) -> str:
 
 
 def render_html(document: dict[str, Any]) -> str:
-    rows = []
-    for entry in document.get("entries") or []:
-        when = entry.get("vote_time") or entry.get("effective_time") or ""
-        if entry.get("vote_time_approximate") or entry.get("effective_time_approximate"):
-            when = f"{when} (approximate)" if when else "approximate"
-        asset = entry["asset"]
-        if entry.get("dex"):
-            asset = f"{entry['dex']}:{asset}"
-        rows.append(
-            "<tr>"
-            f"<td>{_html(entry.get('status'))}</td>"
-            f"<td>{_html(asset)}</td>"
-            f"<td>{_html(entry.get('market'))}</td>"
-            f"<td>{_html(entry.get('kind'))}</td>"
-            f"<td>{_html(when)}</td>"
-            f"<td><a href=\"{_html(entry['source_url'])}\">source</a></td>"
-            "</tr>"
-        )
-    count = len(document.get("entries") or [])
-    generated = _html(document.get("generated_at"))
-    return f"""<!DOCTYPE html>
+    """Return the static calendar page.
+
+    The page reads ``delistings.json`` from the same directory. Entries are
+    not copied into the HTML. ``document`` is accepted so the updater can keep
+    calling this when it rewrites ``docs/index.html``.
+    """
+    if not isinstance(document, dict):
+        raise TypeError("document must be a dict")
+    return _PAGE
+
+
+# The page is static. Braces belong to CSS and JavaScript, so this is not an f-string.
+_PAGE = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Public calendar of Hyperliquid delistings. Unofficial, and not trading advice.">
   <title>Hyperliquid delistings</title>
   <style>
-    body {{ font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.45; color: #172026; }}
-    table {{ border-collapse: collapse; width: 100%; font-size: 0.92rem; }}
-    th, td {{ border-bottom: 1px solid #d5dde2; text-align: left; padding: 0.35rem 0.5rem; vertical-align: top; }}
-    a {{ color: #0b57d0; }}
+    :root { color-scheme: light; }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 1.25rem;
+      line-height: 1.45;
+      color: #172026;
+      background: #fff;
+    }
+    h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 0.6rem; }
+    a { color: #0b57d0; }
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 2px solid #0b57d0;
+      outline-offset: 2px;
+    }
+    .skip {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .skip:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0 0 0.75rem;
+      clip: auto;
+      overflow: visible;
+    }
+    .feeds { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; padding: 0; margin: 0.4rem 0 1rem; list-style: none; }
+    .disclaimer, .note { max-width: 42rem; }
+    .disclaimer { margin-top: 0; }
+    fieldset {
+      border: 1px solid #d5dde2;
+      margin: 0 0 1rem;
+      padding: 0.75rem 0.9rem 0.95rem;
+    }
+    legend { padding: 0 0.25rem; }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: flex-end; }
+    .control { display: flex; flex-direction: column; gap: 0.25rem; min-width: 10rem; flex: 1 1 12rem; }
+    .control-grow { flex: 2 1 16rem; }
+    label { font-size: 0.92rem; }
+    select, input[type="search"] {
+      font: inherit;
+      color: inherit;
+      background: #fff;
+      border: 1px solid #9aabb6;
+      border-radius: 2px;
+      padding: 0.4rem 0.5rem;
+      min-height: 2.75rem;
+      width: 100%;
+    }
+    #generated, #summary { margin: 0.35rem 0; }
+    .empty {
+      border: 1px solid #d5dde2;
+      background: #f4f7f8;
+      padding: 0.75rem 0.9rem;
+      margin: 0.75rem 0;
+    }
+    .labels, .row {
+      display: grid;
+      grid-template-columns: minmax(6rem, 0.9fr) 4.5rem 7.2rem minmax(11rem, 1.3fr) minmax(11rem, 1.3fr) 4.5rem;
+      column-gap: 0.75rem;
+      align-items: baseline;
+    }
+    .labels {
+      font-weight: 600;
+      border-bottom: 2px solid #172026;
+      padding: 0.35rem 0.15rem;
+    }
+    .calendar { list-style: none; margin: 0; padding: 0; }
+    .row { border-bottom: 1px solid #d5dde2; padding: 0.45rem 0.15rem; }
+    .name {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .missing { font-style: italic; }
+    .approximate {
+      display: inline-block;
+      margin-left: 0.35rem;
+      padding: 0 0.35rem;
+      border: 1px solid #8a6d1d;
+      background: #fff6d8;
+      color: #172026;
+      font-style: normal;
+    }
+    .until { display: block; }
+    time { white-space: nowrap; }
+    @media (min-width: 960px) {
+      body { margin: 2rem auto; max-width: 72rem; }
+    }
+    @media (max-width: 959px) {
+      .labels { display: none; }
+      .row { display: block; padding: 0.85rem 0; }
+      .field {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.1rem 0.65rem;
+        align-items: baseline;
+        padding: 0.12rem 0;
+      }
+      .name {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        clip: auto;
+        overflow: visible;
+        min-width: 8.5rem;
+        font-size: 0.78rem;
+        color: #243038;
+      }
+      .value { flex: 1 1 12rem; min-width: 0; }
+      time { white-space: normal; overflow-wrap: anywhere; }
+    }
   </style>
 </head>
 <body>
+  <a class="skip" href="#calendar">Skip to delistings</a>
   <h1>Hyperliquid delistings</h1>
-  <p>Machine-readable calendar of public Hyperliquid delist announcements. {count} entries. Generated {generated}.</p>
-  <p>
-    <a href="delistings.json">delistings.json</a> ·
-    <a href="delistings.rss">RSS</a> ·
-    <a href="delistings.ics">ICS</a> ·
-    <a href="freqtrade-blacklist.json">Freqtrade blacklist</a> ·
-    <a href="schema.json">schema</a> ·
-    <a href="{REPO_URL}">source</a>
-  </p>
-  <p>This is an unofficial compilation of public posts and the exchange info API. It is not a product of Hyperliquid and it is not trading advice. Open the source link before acting on a row. Times marked approximate were described that way by the announcement.</p>
-  <table>
-    <thead>
-      <tr><th>Status</th><th>Asset</th><th>Market</th><th>Kind</th><th>Time (UTC)</th><th>Source</th></tr>
-    </thead>
-    <tbody>
-      {''.join(rows)}
-    </tbody>
-  </table>
+  <p>Public calendar of Hyperliquid delistings for algo traders. The list is read from <a href="delistings.json">delistings.json</a> in this folder. It does not call a live API.</p>
+  <nav aria-label="Feeds">
+    <ul class="feeds">
+      <li><a href="delistings.json">delistings.json</a></li>
+      <li><a href="delistings.rss">RSS</a></li>
+      <li><a href="delistings.ics">ICS</a></li>
+      <li><a href="freqtrade-blacklist.json">Freqtrade blacklist</a></li>
+      <li><a href="schema.json">schema</a></li>
+      <li><a href="https://github.com/asierbayon/hl-delists">source</a></li>
+    </ul>
+  </nav>
+  <p class="disclaimer">This project is not affiliated with Hyperliquid or with the authors of the source posts. The data can be wrong, late, or incomplete. Nothing here is trading, investment, or risk-management advice. Read the linked source before relying on an entry, and do not use this feed as the only control that stops a live strategy from trading a market.</p>
+  <p class="note">Times marked approximate were described that way by the announcement. A vote time or effective time the source did not state is shown as none. Rows are sorted by effective time, then vote time, newest first.</p>
+  <form id="filters" action="#calendar">
+    <fieldset>
+      <legend>Filter delistings</legend>
+      <div class="filters">
+        <div class="control">
+          <label for="status">Status</label>
+          <select id="status" name="status">
+            <option value="">All statuses</option>
+            <option value="scheduled">scheduled</option>
+            <option value="delisted">delisted</option>
+            <option value="postponed">postponed</option>
+            <option value="unconfirmed">unconfirmed</option>
+            <option value="superseded">superseded</option>
+            <option value="elapsed">elapsed</option>
+            <option value="relisted">relisted</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="market">Market</label>
+          <select id="market" name="market">
+            <option value="">All markets</option>
+            <option value="perp">perp</option>
+            <option value="spot">spot</option>
+            <option value="hip3">hip3</option>
+          </select>
+        </div>
+        <div class="control control-grow">
+          <label for="asset-search">Asset</label>
+          <input id="asset-search" name="asset" type="search" placeholder="Search by asset" autocomplete="off" autocapitalize="off" spellcheck="false">
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <p id="generated">Reading the calendar…</p>
+  <p id="summary" role="status" aria-live="polite">Loading delistings.json…</p>
+  <p id="empty" class="empty" role="status" hidden>No delistings match these filters.</p>
+  <noscript>
+    <p class="empty">JavaScript is off, so this page cannot read delistings.json. The JSON, RSS, and ICS links above still open the files.</p>
+  </noscript>
+  <div class="labels" aria-hidden="true">
+    <span>Asset</span>
+    <span>Market</span>
+    <span>Status</span>
+    <span>Vote time (UTC)</span>
+    <span>Effective time (UTC)</span>
+    <span>Source</span>
+  </div>
+  <ol id="calendar" class="calendar" aria-label="Delistings"></ol>
+  <script>
+    const summary = document.querySelector("#summary");
+    const empty = document.querySelector("#empty");
+    const calendar = document.querySelector("#calendar");
+    const generated = document.querySelector("#generated");
+    const statusFilter = document.querySelector("#status");
+    const marketFilter = document.querySelector("#market");
+    const assetSearch = document.querySelector("#asset-search");
+    const filters = document.querySelector("#filters");
+
+    let entries = [];
+    let loaded = false;
+
+    const displayAsset = (entry) => {
+      if (!entry.asset) {
+        return "";
+      }
+      if (!entry.dex) {
+        return String(entry.asset);
+      }
+      return String(entry.dex) + ":" + String(entry.asset);
+    };
+
+    const httpUrl = (value) => {
+      if (typeof value !== "string" || value === "") {
+        return "";
+      }
+      let url;
+      try {
+        url = new URL(value);
+      } catch (error) {
+        return "";
+      }
+      if (url.protocol === "https:") {
+        return url.href;
+      }
+      if (url.protocol === "http:") {
+        return url.href;
+      }
+      return "";
+    };
+
+    const timeKey = (entry) => {
+      if (entry.effective_time) {
+        return String(entry.effective_time);
+      }
+      if (entry.vote_time) {
+        return String(entry.vote_time);
+      }
+      return "";
+    };
+
+    const compareEntries = (left, right) => {
+      const leftKey = timeKey(left);
+      const rightKey = timeKey(right);
+      if (leftKey !== rightKey) {
+        if (!leftKey) {
+          return 1;
+        }
+        if (!rightKey) {
+          return -1;
+        }
+        if (leftKey < rightKey) {
+          return 1;
+        }
+        return -1;
+      }
+      return displayAsset(left).localeCompare(displayAsset(right));
+    };
+
+    const matchesEntry = (entry) => {
+      const status = statusFilter.value;
+      if (status && entry.status !== status) {
+        return false;
+      }
+      const market = marketFilter.value;
+      if (market && entry.market !== market) {
+        return false;
+      }
+      const query = assetSearch.value.trim().toLowerCase();
+      if (!query) {
+        return true;
+      }
+      const asset = String(entry.asset || "").toLowerCase();
+      if (asset.includes(query)) {
+        return true;
+      }
+      return displayAsset(entry).toLowerCase().includes(query);
+    };
+
+    const appendMissing = (container) => {
+      const missing = document.createElement("span");
+      missing.className = "missing";
+      missing.textContent = "none";
+      container.append(missing);
+    };
+
+    const fillTime = (container, value, approximate) => {
+      container.replaceChildren();
+      if (!value) {
+        appendMissing(container);
+      } else {
+        const time = document.createElement("time");
+        time.dateTime = String(value);
+        time.textContent = String(value);
+        container.append(time);
+      }
+      if (!approximate) {
+        return;
+      }
+      const note = document.createElement("span");
+      note.className = "approximate";
+      note.textContent = "approximate";
+      container.append(document.createTextNode(" "), note);
+    };
+
+    const addField = (row, label, fill) => {
+      const field = document.createElement("div");
+      field.className = "field";
+      const name = document.createElement("span");
+      name.className = "name";
+      name.textContent = label;
+      const value = document.createElement("div");
+      value.className = "value";
+      fill(value);
+      field.append(name, value);
+      row.append(field);
+    };
+
+    const renderEntry = (entry) => {
+      const item = document.createElement("li");
+      item.className = "row";
+      const shown = displayAsset(entry);
+      if (shown) {
+        item.dataset.asset = shown;
+      }
+      addField(item, "Asset", (value) => {
+        if (!shown) {
+          appendMissing(value);
+          return;
+        }
+        value.textContent = shown;
+        value.translate = false;
+      });
+      addField(item, "Market", (value) => {
+        if (!entry.market) {
+          appendMissing(value);
+          return;
+        }
+        value.textContent = String(entry.market);
+      });
+      addField(item, "Status", (value) => {
+        if (!entry.status) {
+          appendMissing(value);
+          return;
+        }
+        value.textContent = String(entry.status);
+      });
+      addField(item, "Vote time (UTC)", (value) => {
+        fillTime(value, entry.vote_time, entry.vote_time_approximate);
+      });
+      addField(item, "Effective time (UTC)", (value) => {
+        fillTime(value, entry.effective_time, entry.effective_time_approximate);
+        if (!entry.effective_time_end) {
+          return;
+        }
+        const until = document.createElement("span");
+        until.className = "until";
+        until.textContent = "until " + String(entry.effective_time_end);
+        value.append(until);
+      });
+      addField(item, "Source", (value) => {
+        const url = httpUrl(entry.source_url);
+        if (!url) {
+          appendMissing(value);
+          return;
+        }
+        const link = document.createElement("a");
+        link.href = url;
+        link.textContent = "source";
+        const label = shown || "this entry";
+        link.setAttribute("aria-label", "Source for " + label);
+        value.append(link);
+      });
+      return item;
+    };
+
+    const renderList = () => {
+      const visible = entries.filter((entry) => matchesEntry(entry));
+      visible.sort(compareEntries);
+      const fragment = document.createDocumentFragment();
+      visible.forEach((entry) => {
+        fragment.append(renderEntry(entry));
+      });
+      calendar.replaceChildren(fragment);
+      summary.textContent = "Showing " + String(visible.length) + " of " + String(entries.length) + ".";
+      if (visible.length === 0) {
+        empty.hidden = false;
+        if (entries.length === 0) {
+          empty.textContent = "No delistings are in delistings.json.";
+          return;
+        }
+        empty.textContent = "No delistings match these filters.";
+        return;
+      }
+      empty.hidden = true;
+    };
+
+    const showLoadError = () => {
+      loaded = false;
+      generated.textContent = "The calendar file could not be read.";
+      summary.textContent = "Could not read delistings.json.";
+      empty.hidden = false;
+      empty.textContent = "Open this page from the docs folder over HTTP, with a local server or GitHub Pages, so it can read delistings.json next to it. It does not call a live API.";
+    };
+
+    const renderGenerated = (document) => {
+      const when = document.generated_at ? String(document.generated_at) : "not stated";
+      generated.textContent = String(entries.length) + " entries. Generated " + when + ".";
+    };
+
+    const loadCalendar = async () => {
+      let response;
+      try {
+        response = await fetch("delistings.json");
+      } catch (error) {
+        showLoadError();
+        return;
+      }
+      if (!response.ok) {
+        showLoadError();
+        return;
+      }
+      let document;
+      try {
+        document = await response.json();
+      } catch (error) {
+        showLoadError();
+        return;
+      }
+      if (!document || !Array.isArray(document.entries)) {
+        showLoadError();
+        return;
+      }
+      entries = document.entries;
+      loaded = true;
+      renderGenerated(document);
+      renderList();
+    };
+
+    const handleFilterChange = () => {
+      if (!loaded) {
+        return;
+      }
+      renderList();
+    };
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      handleFilterChange();
+    };
+
+    statusFilter.addEventListener("change", handleFilterChange);
+    marketFilter.addEventListener("change", handleFilterChange);
+    assetSearch.addEventListener("input", handleFilterChange);
+    filters.addEventListener("submit", handleSubmit);
+    loadCalendar();
+  </script>
 </body>
 </html>
 """
@@ -225,6 +652,3 @@ def _xml(value: object) -> str:
         .replace('"', "&quot;")
     )
 
-
-def _html(value: object) -> str:
-    return html.escape(str(value if value is not None else ""), quote=True)

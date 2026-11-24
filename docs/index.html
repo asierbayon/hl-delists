@@ -3,33 +3,469 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Public calendar of Hyperliquid delistings. Unofficial, and not trading advice.">
   <title>Hyperliquid delistings</title>
   <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.45; color: #172026; }
-    table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
-    th, td { border-bottom: 1px solid #d5dde2; text-align: left; padding: 0.35rem 0.5rem; vertical-align: top; }
+    :root { color-scheme: light; }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 1.25rem;
+      line-height: 1.45;
+      color: #172026;
+      background: #fff;
+    }
+    h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 0.6rem; }
     a { color: #0b57d0; }
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 2px solid #0b57d0;
+      outline-offset: 2px;
+    }
+    .skip {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .skip:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0 0 0.75rem;
+      clip: auto;
+      overflow: visible;
+    }
+    .feeds { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; padding: 0; margin: 0.4rem 0 1rem; list-style: none; }
+    .disclaimer, .note { max-width: 42rem; }
+    .disclaimer { margin-top: 0; }
+    fieldset {
+      border: 1px solid #d5dde2;
+      margin: 0 0 1rem;
+      padding: 0.75rem 0.9rem 0.95rem;
+    }
+    legend { padding: 0 0.25rem; }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: flex-end; }
+    .control { display: flex; flex-direction: column; gap: 0.25rem; min-width: 10rem; flex: 1 1 12rem; }
+    .control-grow { flex: 2 1 16rem; }
+    label { font-size: 0.92rem; }
+    select, input[type="search"] {
+      font: inherit;
+      color: inherit;
+      background: #fff;
+      border: 1px solid #9aabb6;
+      border-radius: 2px;
+      padding: 0.4rem 0.5rem;
+      min-height: 2.75rem;
+      width: 100%;
+    }
+    #generated, #summary { margin: 0.35rem 0; }
+    .empty {
+      border: 1px solid #d5dde2;
+      background: #f4f7f8;
+      padding: 0.75rem 0.9rem;
+      margin: 0.75rem 0;
+    }
+    .labels, .row {
+      display: grid;
+      grid-template-columns: minmax(6rem, 0.9fr) 4.5rem 7.2rem minmax(11rem, 1.3fr) minmax(11rem, 1.3fr) 4.5rem;
+      column-gap: 0.75rem;
+      align-items: baseline;
+    }
+    .labels {
+      font-weight: 600;
+      border-bottom: 2px solid #172026;
+      padding: 0.35rem 0.15rem;
+    }
+    .calendar { list-style: none; margin: 0; padding: 0; }
+    .row { border-bottom: 1px solid #d5dde2; padding: 0.45rem 0.15rem; }
+    .name {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .missing { font-style: italic; }
+    .approximate {
+      display: inline-block;
+      margin-left: 0.35rem;
+      padding: 0 0.35rem;
+      border: 1px solid #8a6d1d;
+      background: #fff6d8;
+      color: #172026;
+      font-style: normal;
+    }
+    .until { display: block; }
+    time { white-space: nowrap; }
+    @media (min-width: 960px) {
+      body { margin: 2rem auto; max-width: 72rem; }
+    }
+    @media (max-width: 959px) {
+      .labels { display: none; }
+      .row { display: block; padding: 0.85rem 0; }
+      .field {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.1rem 0.65rem;
+        align-items: baseline;
+        padding: 0.12rem 0;
+      }
+      .name {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        clip: auto;
+        overflow: visible;
+        min-width: 8.5rem;
+        font-size: 0.78rem;
+        color: #243038;
+      }
+      .value { flex: 1 1 12rem; min-width: 0; }
+      time { white-space: normal; overflow-wrap: anywhere; }
+    }
   </style>
 </head>
 <body>
+  <a class="skip" href="#calendar">Skip to delistings</a>
   <h1>Hyperliquid delistings</h1>
-  <p>Machine-readable calendar of public Hyperliquid delist announcements. 102 entries. Generated 2026-11-24T07:15:00Z.</p>
-  <p>
-    <a href="delistings.json">delistings.json</a> ·
-    <a href="delistings.rss">RSS</a> ·
-    <a href="delistings.ics">ICS</a> ·
-    <a href="freqtrade-blacklist.json">Freqtrade blacklist</a> ·
-    <a href="schema.json">schema</a> ·
-    <a href="https://github.com/asierbayon/hl-delists">source</a>
-  </p>
-  <p>This is an unofficial compilation of public posts and the exchange info API. It is not a product of Hyperliquid and it is not trading advice. Open the source link before acting on a row. Times marked approximate were described that way by the announcement.</p>
-  <table>
-    <thead>
-      <tr><th>Status</th><th>Asset</th><th>Market</th><th>Kind</th><th>Time (UTC)</th><th>Source</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>delisted</td><td>hyna:BCH</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>cash:BTC</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>cash:ETH</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>hyna:GOLD</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>cash:GOOGL</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>hyna:IP</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>hyna:LIGHTER</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>hyna:LIT</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>hyna:SILVER</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>hyna:XMR</td><td>hip3</td><td>observed_delisted</td><td></td><td><a href="https://api.hyperliquid.xyz/info">source</a></td></tr><tr><td>delisted</td><td>STRAX</td><td>perp</td><td>scheduled_delist</td><td>2024-03-15T01:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/148">source</a></td></tr><tr><td>delisted</td><td>FRIEND</td><td>perp</td><td>scheduled_delist</td><td>2024-05-02T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/177">source</a></td></tr><tr><td>postponed</td><td>FET</td><td>perp</td><td>scheduled_delist</td><td>2024-06-12T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/190">source</a></td></tr><tr><td>unconfirmed</td><td>BANANA</td><td>perp</td><td>scheduled_delist</td><td>2024-06-27T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/200">source</a></td></tr><tr><td>delisted</td><td>NFTI</td><td>perp</td><td>scheduled_delist</td><td>2024-06-27T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/200">source</a></td></tr><tr><td>delisted</td><td>OX</td><td>perp</td><td>scheduled_delist</td><td>2024-06-27T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/200">source</a></td></tr><tr><td>delisted</td><td>PANDORA</td><td>perp</td><td>scheduled_delist</td><td>2024-06-27T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/200">source</a></td></tr><tr><td>delisted</td><td>SHIA</td><td>perp</td><td>scheduled_delist</td><td>2024-06-27T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/200">source</a></td></tr><tr><td>delisted</td><td>UNIBOT</td><td>perp</td><td>scheduled_delist</td><td>2024-06-27T08:00:00Z</td><td><a href="https://t.me/hyperliquid_announcements/200">source</a></td></tr><tr><td>delisted</td><td>RNDR</td><td>perp</td><td>scheduled_delist</td><td>2024-07-21T11:00:00Z (approximate)</td><td><a href="https://t.me/hyperliquid_announcements/209">source</a></td></tr><tr><td>delisted</td><td>CANTO</td><td>perp</td><td>scheduled_delist</td><td>2024-08-13T08:30:00Z (approximate)</td><td><a href="https://t.me/hyperliquid_announcements/217">source</a></td></tr><tr><td>delisted</td><td>MATIC</td><td>perp</td><td>scheduled_delist</td><td>2024-09-09T07:30:00Z</td><td><a href="https://t.me/hyperliquid_announcements/222">source</a></td></tr><tr><td>delisted</td><td>LOOM</td><td>perp</td><td>scheduled_delist</td><td>2024-12-12T08:30:00Z</td><td><a href="https://t.me/hyperliquid_announcements/265">source</a></td></tr><tr><td>delisted</td><td>BLZ</td><td>perp</td><td>scheduled_delist</td><td>2024-12-22T08:30:00Z</td><td><a href="https://t.me/hyperliquid_announcements/273">source</a></td></tr><tr><td>delisted</td><td>FTM</td><td>perp</td><td>scheduled_delist</td><td>2025-01-12T03:30:00Z</td><td><a href="https://t.me/hyperliquid_announcements/282">source</a></td></tr><tr><td>delisted</td><td>JELLY</td><td>perp</td><td>delist_notice</td><td></td><td><a href="https://t.me/hyperliquid_announcements/332">source</a></td></tr><tr><td>delisted</td><td>MYRO</td><td>perp</td><td>delist_vote</td><td>2025-03-29T13:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/i9excsb5cdc">source</a></td></tr><tr><td>delisted</td><td>BNT</td><td>perp</td><td>delist_vote</td><td>2025-04-04T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd">source</a></td></tr><tr><td>delisted</td><td>HPOS</td><td>perp</td><td>delist_vote</td><td>2025-04-04T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd">source</a></td></tr><tr><td>delisted</td><td>ILV</td><td>perp</td><td>delist_vote</td><td>2025-04-04T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd">source</a></td></tr><tr><td>delisted</td><td>NTRN</td><td>perp</td><td>delist_vote</td><td>2025-04-04T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd">source</a></td></tr><tr><td>delisted</td><td>ORBS</td><td>perp</td><td>delist_vote</td><td>2025-04-04T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd">source</a></td></tr><tr><td>delisted</td><td>RLB</td><td>perp</td><td>delist_vote</td><td>2025-04-04T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/p1ddgy4z4sd">source</a></td></tr><tr><td>delisted</td><td>AI</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>BADGER</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>CATI</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>CYBER</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>LISTA</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>PIXEL</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>RDNT</td><td>perp</td><td>delist_vote</td><td>2025-04-11T12:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/nbego969sc8">source</a></td></tr><tr><td>delisted</td><td>kDOGS</td><td>perp</td><td>delist_vote</td><td>2025-08-04T10:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/igatpkcw9m">source</a></td></tr><tr><td>delisted</td><td>OGN</td><td>perp</td><td>delist_vote</td><td>2025-08-04T10:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/igatpkcw9m">source</a></td></tr><tr><td>delisted</td><td>REQ</td><td>perp</td><td>delist_vote</td><td>2025-08-04T10:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/igatpkcw9m">source</a></td></tr><tr><td>delisted</td><td>STG</td><td>perp</td><td>delist_vote</td><td>2025-08-04T10:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/igatpkcw9m">source</a></td></tr><tr><td>delisted</td><td>MKR</td><td>perp</td><td>delist_vote</td><td>2025-09-05T10:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/8pcq8szcgpm">source</a></td></tr><tr><td>delisted</td><td>NEIROETH</td><td>perp</td><td>delist_vote</td><td>2025-09-25T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/xsn2xu4g5g">source</a></td></tr><tr><td>delisted</td><td>OMNI</td><td>perp</td><td>delist_vote</td><td>2025-09-25T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/xsn2xu4g5g">source</a></td></tr><tr><td>delisted</td><td>LAUNCHCOIN</td><td>perp</td><td>delist_vote</td><td>2025-10-25T07:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/w50kcqiztvk">source</a></td></tr><tr><td>delisted</td><td>AI16Z</td><td>perp</td><td>delist_vote</td><td>2025-11-06T08:30:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/3zhbwdg3j94">source</a></td></tr><tr><td>delisted</td><td>FXS</td><td>perp</td><td>delist_vote</td><td>2026-01-06T07:30:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/frkbnmlckgv">source</a></td></tr><tr><td>delisted</td><td>OM</td><td>perp</td><td>delist_vote</td><td>2026-02-23T08:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/f1xw9xsh1e">source</a></td></tr><tr><td>delisted</td><td>MAV</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>MAVIA</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>MEW</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>PROMPT</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>SCR</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>superseded</td><td>TST</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>USTC</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>YZY</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>ZEREBRO</td><td>perp</td><td>delist_vote</td><td>2026-05-05T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/15voh4lxgo2">source</a></td></tr><tr><td>delisted</td><td>BLAST</td><td>perp</td><td>delist_vote</td><td>2026-05-25T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/5w9usyzab1b">source</a></td></tr><tr><td>delisted</td><td>CHILLGUY</td><td>perp</td><td>delist_vote</td><td>2026-05-25T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/5w9usyzab1b">source</a></td></tr><tr><td>delisted</td><td>FTT</td><td>perp</td><td>delist_vote</td><td>2026-05-25T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/5w9usyzab1b">source</a></td></tr><tr><td>delisted</td><td>TST</td><td>perp</td><td>delist_vote</td><td>2026-05-25T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/5w9usyzab1b">source</a></td></tr><tr><td>delisted</td><td>TON</td><td>perp</td><td>delist_vote</td><td>2026-06-15T09:00:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/q29gexq5s1h">source</a></td></tr><tr><td>delisted</td><td>ARK</td><td>perp</td><td>delist_vote</td><td>2026-06-25T09:30:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/6jtili4w5t">source</a></td></tr><tr><td>delisted</td><td>DOOD</td><td>perp</td><td>delist_vote</td><td>2026-06-25T09:30:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/6jtili4w5t">source</a></td></tr><tr><td>delisted</td><td>IP</td><td>perp</td><td>delist_vote</td><td>2026-06-29T09:30:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/r8bdggoyih">source</a></td></tr><tr><td>delisted</td><td>cash:AMZN</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:CAR</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:EWY</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:GOLD</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>elapsed</td><td>cash:GOOGLE</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:HOOD</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:INTC</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:KWEB</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:META</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:MSFT</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:NVDA</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:SILVER</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:TSLA</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:USA500</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>cash:WTI</td><td>hip3</td><td>hip3_sunset</td><td>2026-06-30T13:45:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/ydvor1grh4">source</a></td></tr><tr><td>delisted</td><td>VINE</td><td>perp</td><td>delist_vote</td><td>2026-08-26T09:30:00Z (approximate)</td><td><a href="https://app.hyperliquid.xyz/announcement/rl469tntie">source</a></td></tr><tr><td>delisted</td><td>hyna:1000PEPE</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:ADA</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:BASED</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:BNB</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:BTC</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:DOGE</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:ENA</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:ETH</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:FARTCOIN</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:HYPE</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:LINK</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:LTC</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:PUMP</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:SOL</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:SUI</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:XPL</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:XRP</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr><tr><td>delisted</td><td>hyna:ZEC</td><td>hip3</td><td>hip3_sunset</td><td>2026-08-31T10:00:00Z</td><td><a href="https://app.hyperliquid.xyz/announcement/nkbbby8yrh">source</a></td></tr>
-    </tbody>
-  </table>
+  <p>Public calendar of Hyperliquid delistings for algo traders. The list is read from <a href="delistings.json">delistings.json</a> in this folder. It does not call a live API.</p>
+  <nav aria-label="Feeds">
+    <ul class="feeds">
+      <li><a href="delistings.json">delistings.json</a></li>
+      <li><a href="delistings.rss">RSS</a></li>
+      <li><a href="delistings.ics">ICS</a></li>
+      <li><a href="freqtrade-blacklist.json">Freqtrade blacklist</a></li>
+      <li><a href="schema.json">schema</a></li>
+      <li><a href="https://github.com/asierbayon/hl-delists">source</a></li>
+    </ul>
+  </nav>
+  <p class="disclaimer">This project is not affiliated with Hyperliquid or with the authors of the source posts. The data can be wrong, late, or incomplete. Nothing here is trading, investment, or risk-management advice. Read the linked source before relying on an entry, and do not use this feed as the only control that stops a live strategy from trading a market.</p>
+  <p class="note">Times marked approximate were described that way by the announcement. A vote time or effective time the source did not state is shown as none. Rows are sorted by effective time, then vote time, newest first.</p>
+  <form id="filters" action="#calendar">
+    <fieldset>
+      <legend>Filter delistings</legend>
+      <div class="filters">
+        <div class="control">
+          <label for="status">Status</label>
+          <select id="status" name="status">
+            <option value="">All statuses</option>
+            <option value="scheduled">scheduled</option>
+            <option value="delisted">delisted</option>
+            <option value="postponed">postponed</option>
+            <option value="unconfirmed">unconfirmed</option>
+            <option value="superseded">superseded</option>
+            <option value="elapsed">elapsed</option>
+            <option value="relisted">relisted</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="market">Market</label>
+          <select id="market" name="market">
+            <option value="">All markets</option>
+            <option value="perp">perp</option>
+            <option value="spot">spot</option>
+            <option value="hip3">hip3</option>
+          </select>
+        </div>
+        <div class="control control-grow">
+          <label for="asset-search">Asset</label>
+          <input id="asset-search" name="asset" type="search" placeholder="Search by asset" autocomplete="off" autocapitalize="off" spellcheck="false">
+        </div>
+      </div>
+    </fieldset>
+  </form>
+  <p id="generated">Reading the calendar…</p>
+  <p id="summary" role="status" aria-live="polite">Loading delistings.json…</p>
+  <p id="empty" class="empty" role="status" hidden>No delistings match these filters.</p>
+  <noscript>
+    <p class="empty">JavaScript is off, so this page cannot read delistings.json. The JSON, RSS, and ICS links above still open the files.</p>
+  </noscript>
+  <div class="labels" aria-hidden="true">
+    <span>Asset</span>
+    <span>Market</span>
+    <span>Status</span>
+    <span>Vote time (UTC)</span>
+    <span>Effective time (UTC)</span>
+    <span>Source</span>
+  </div>
+  <ol id="calendar" class="calendar" aria-label="Delistings"></ol>
+  <script>
+    const summary = document.querySelector("#summary");
+    const empty = document.querySelector("#empty");
+    const calendar = document.querySelector("#calendar");
+    const generated = document.querySelector("#generated");
+    const statusFilter = document.querySelector("#status");
+    const marketFilter = document.querySelector("#market");
+    const assetSearch = document.querySelector("#asset-search");
+    const filters = document.querySelector("#filters");
+
+    let entries = [];
+    let loaded = false;
+
+    const displayAsset = (entry) => {
+      if (!entry.asset) {
+        return "";
+      }
+      if (!entry.dex) {
+        return String(entry.asset);
+      }
+      return String(entry.dex) + ":" + String(entry.asset);
+    };
+
+    const httpUrl = (value) => {
+      if (typeof value !== "string" || value === "") {
+        return "";
+      }
+      let url;
+      try {
+        url = new URL(value);
+      } catch (error) {
+        return "";
+      }
+      if (url.protocol === "https:") {
+        return url.href;
+      }
+      if (url.protocol === "http:") {
+        return url.href;
+      }
+      return "";
+    };
+
+    const timeKey = (entry) => {
+      if (entry.effective_time) {
+        return String(entry.effective_time);
+      }
+      if (entry.vote_time) {
+        return String(entry.vote_time);
+      }
+      return "";
+    };
+
+    const compareEntries = (left, right) => {
+      const leftKey = timeKey(left);
+      const rightKey = timeKey(right);
+      if (leftKey !== rightKey) {
+        if (!leftKey) {
+          return 1;
+        }
+        if (!rightKey) {
+          return -1;
+        }
+        if (leftKey < rightKey) {
+          return 1;
+        }
+        return -1;
+      }
+      return displayAsset(left).localeCompare(displayAsset(right));
+    };
+
+    const matchesEntry = (entry) => {
+      const status = statusFilter.value;
+      if (status && entry.status !== status) {
+        return false;
+      }
+      const market = marketFilter.value;
+      if (market && entry.market !== market) {
+        return false;
+      }
+      const query = assetSearch.value.trim().toLowerCase();
+      if (!query) {
+        return true;
+      }
+      const asset = String(entry.asset || "").toLowerCase();
+      if (asset.includes(query)) {
+        return true;
+      }
+      return displayAsset(entry).toLowerCase().includes(query);
+    };
+
+    const appendMissing = (container) => {
+      const missing = document.createElement("span");
+      missing.className = "missing";
+      missing.textContent = "none";
+      container.append(missing);
+    };
+
+    const fillTime = (container, value, approximate) => {
+      container.replaceChildren();
+      if (!value) {
+        appendMissing(container);
+      } else {
+        const time = document.createElement("time");
+        time.dateTime = String(value);
+        time.textContent = String(value);
+        container.append(time);
+      }
+      if (!approximate) {
+        return;
+      }
+      const note = document.createElement("span");
+      note.className = "approximate";
+      note.textContent = "approximate";
+      container.append(document.createTextNode(" "), note);
+    };
+
+    const addField = (row, label, fill) => {
+      const field = document.createElement("div");
+      field.className = "field";
+      const name = document.createElement("span");
+      name.className = "name";
+      name.textContent = label;
+      const value = document.createElement("div");
+      value.className = "value";
+      fill(value);
+      field.append(name, value);
+      row.append(field);
+    };
+
+    const renderEntry = (entry) => {
+      const item = document.createElement("li");
+      item.className = "row";
+      const shown = displayAsset(entry);
+      if (shown) {
+        item.dataset.asset = shown;
+      }
+      addField(item, "Asset", (value) => {
+        if (!shown) {
+          appendMissing(value);
+          return;
+        }
+        value.textContent = shown;
+        value.translate = false;
+      });
+      addField(item, "Market", (value) => {
+        if (!entry.market) {
+          appendMissing(value);
+          return;
+        }
+        value.textContent = String(entry.market);
+      });
+      addField(item, "Status", (value) => {
+        if (!entry.status) {
+          appendMissing(value);
+          return;
+        }
+        value.textContent = String(entry.status);
+      });
+      addField(item, "Vote time (UTC)", (value) => {
+        fillTime(value, entry.vote_time, entry.vote_time_approximate);
+      });
+      addField(item, "Effective time (UTC)", (value) => {
+        fillTime(value, entry.effective_time, entry.effective_time_approximate);
+        if (!entry.effective_time_end) {
+          return;
+        }
+        const until = document.createElement("span");
+        until.className = "until";
+        until.textContent = "until " + String(entry.effective_time_end);
+        value.append(until);
+      });
+      addField(item, "Source", (value) => {
+        const url = httpUrl(entry.source_url);
+        if (!url) {
+          appendMissing(value);
+          return;
+        }
+        const link = document.createElement("a");
+        link.href = url;
+        link.textContent = "source";
+        const label = shown || "this entry";
+        link.setAttribute("aria-label", "Source for " + label);
+        value.append(link);
+      });
+      return item;
+    };
+
+    const renderList = () => {
+      const visible = entries.filter((entry) => matchesEntry(entry));
+      visible.sort(compareEntries);
+      const fragment = document.createDocumentFragment();
+      visible.forEach((entry) => {
+        fragment.append(renderEntry(entry));
+      });
+      calendar.replaceChildren(fragment);
+      summary.textContent = "Showing " + String(visible.length) + " of " + String(entries.length) + ".";
+      if (visible.length === 0) {
+        empty.hidden = false;
+        if (entries.length === 0) {
+          empty.textContent = "No delistings are in delistings.json.";
+          return;
+        }
+        empty.textContent = "No delistings match these filters.";
+        return;
+      }
+      empty.hidden = true;
+    };
+
+    const showLoadError = () => {
+      loaded = false;
+      generated.textContent = "The calendar file could not be read.";
+      summary.textContent = "Could not read delistings.json.";
+      empty.hidden = false;
+      empty.textContent = "Open this page from the docs folder over HTTP, with a local server or GitHub Pages, so it can read delistings.json next to it. It does not call a live API.";
+    };
+
+    const renderGenerated = (document) => {
+      const when = document.generated_at ? String(document.generated_at) : "not stated";
+      generated.textContent = String(entries.length) + " entries. Generated " + when + ".";
+    };
+
+    const loadCalendar = async () => {
+      let response;
+      try {
+        response = await fetch("delistings.json");
+      } catch (error) {
+        showLoadError();
+        return;
+      }
+      if (!response.ok) {
+        showLoadError();
+        return;
+      }
+      let document;
+      try {
+        document = await response.json();
+      } catch (error) {
+        showLoadError();
+        return;
+      }
+      if (!document || !Array.isArray(document.entries)) {
+        showLoadError();
+        return;
+      }
+      entries = document.entries;
+      loaded = true;
+      renderGenerated(document);
+      renderList();
+    };
+
+    const handleFilterChange = () => {
+      if (!loaded) {
+        return;
+      }
+      renderList();
+    };
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      handleFilterChange();
+    };
+
+    statusFilter.addEventListener("change", handleFilterChange);
+    marketFilter.addEventListener("change", handleFilterChange);
+    assetSearch.addEventListener("input", handleFilterChange);
+    filters.addEventListener("submit", handleSubmit);
+    loadCalendar();
+  </script>
 </body>
 </html>
