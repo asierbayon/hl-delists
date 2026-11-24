@@ -1,0 +1,386 @@
+[
+  {
+    "id": 585,
+    "datetime": "2026-08-31T10:42:46+00:00",
+    "text": "Weekly Update \n\nProduct & Tech\n+ HIP-4 permissionless deployments were enabled on mainnet\n\nTrading\n+ PONS perps were listed; VINE perps were delisted\n+ HyENA's HIP-3 dex is sunsetting. See information on market wind-down here: https://docs.hyena.trade/\n\nNew Teams on HyperEVM & HyperCore\n+ Pumpfun added support for HyperEVM: https://x.com/Pumpfun/status/2092613331299291421\n\nCommunity Highlights\n+ Bloomberg wrote about Trade[XYZ]'s markets: https://www.bloomberg.com/news/articles/2026-08-24/the-500-billion-experiment-to-build-24-7-markets-on-blockchain\n+ The Hyperliquid community event will take place on the evening of October 5 in Singapore. Please register here: https://luma.com/HL2026Community",
+    "url": "https://t.me/hyperliquid_announcements/585"
+  },
+  {
+    "id": 565,
+    "datetime": "2026-06-26T11:45:48+00:00",
+    "text": "Validators will vote on whether to delist IP around 29 June at 9:30 UTC. IP is being rebranded to DATA by Story Protocol. \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/565"
+  },
+  {
+    "id": 567,
+    "datetime": "2026-06-29T12:01:05+00:00",
+    "text": "Weekly Update\n\nProduct & Tech\n+ Portfolio margin is in beta with increased limits and is available for users with account value <$25M to use BTC and HYPE as collateral. \n+ Please continue to share feedback on what functionality would be useful for frontend interfaces for trading, portfolio margin, etc. \n\nTrading\n+ ARK, DOOD, and IP were delisted\n\nCommunity Highlights\n+ A community member built Hypurr World, a virtual 3D lounge for Hypurr and friends: https://x.com/hypurrworld\n+ Japanese community members are organizing a meet-up on July 14 in Tokyo: https://x.com/hypurrliquid_jp/status/2069371354290487409\n+ Hyper Foundation is giving approximately $10M in grants to builders impacted by the USDH sunset\n+ Hyper Foundation donated to Security Alliance (SEAL)",
+    "url": "https://t.me/hyperliquid_announcements/567"
+  },
+  {
+    "id": 582,
+    "datetime": "2026-08-24T10:04:18+00:00",
+    "text": "Weekly Update\n\nProduct & Tech\n+ HIP-1 spot annotations and deployer labels are now supported. For details, see the API announcements channel\n+ HIP-4 templates on testnet are pending builder feedback; see the API announcements channel\n+ See Docs re: infra providers' peering services that builders can connect to: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node-for-infra-providers\n\nTrading\n+ Validators will vote on whether to delist VINE around 9:30 UTC on 26 Aug based on stalequant's methodology. If validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.\n\nNew Teams on HyperEVM & HyperCore\n+ Base app integrated Hyperliquid perps via builder codes: https://x.com/baseapp/status/2090122188074491951\n+ Trezor added support for HyperEVM:\nhttps://x.com/Trezor/status/2090813911217946848\n\nCommunity Highlights\n+ POTUS mentioned Hyperliquid in a recent press conference: https://www.bloomberg.com/news/articles/2026-08-19/trump-opens-door-to-hyperliquid-as-us-pulls-crypto-trade-onshore",
+    "url": "https://t.me/hyperliquid_announcements/582"
+  },
+  {
+    "id": 551,
+    "datetime": "2026-05-21T08:37:02+00:00",
+    "text": "Validators will vote on whether to delist BLAST, CHILLGUY, FTT, and TST around 25 May 2026 at 09:00 UTC, based on stalequant's methodology and community request. \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/551"
+  },
+  {
+    "id": 553,
+    "datetime": "2026-05-26T05:44:25+00:00",
+    "text": "Weekly Update\n\nProduct & Tech\n+ Hyperliquid now supports canonical outcome (HIP-4) markets based on offchain events, with the first markets being May CPI year-over-year change and the June federal funds rate change. HIP-4 markets also now use USDC as the quote asset\n+ Updated Docs on Account Type and Portfolio Margin to help answer user questions: https://hyperliquid.gitbook.io/hyperliquid-docs/trading/account-abstraction-modes, https://hyperliquid.gitbook.io/hyperliquid-docs/support/faq/portfolio-margin\n\nTrading\n+ BLAST, CHILLGUY, FTT, and TST were delisted\n\nNew Teams on the HyperEVM & HyperCore (in no particular order)\n+ Bounce deployed a leveraged token product: https://x.com/BounceTech/status/2056740906565320843\n+ MoonPay fiat onramp integrated HyperCore USDC: https://x.com/moonpay/status/2057814699480125807\n+ Worm terminal added support for HIP-4: https://x.com/wormwtf/status/2056414229193011698",
+    "url": "https://t.me/hyperliquid_announcements/553"
+  },
+  {
+    "id": 558,
+    "datetime": "2026-06-12T05:44:10+00:00",
+    "text": "Validators will vote on whether to delist TON around 9:00 UTC on 15 June. TON is rebranding to GRAM.  \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/558"
+  },
+  {
+    "id": 560,
+    "datetime": "2026-06-16T11:21:53+00:00",
+    "text": "Weekly Update\n\nProduct & Tech\n+ AQAv2 was activated for USDC\n+ Recurring daily ETH, HYPE, and SOL binary outcomes are now supported\n\nTrading\n+ Trade.xyz's SPCX market transitioned from pre-IPO perp (IPOP) to a regular perp\n+ TON was delisted as part of its rebrand to GRAM\n+ As part of the USDH sunset, all USDH-denominated markets on HyperCore, including HIP-3 DEXs Ventuals, Kinetiq, and Felix, will complete settlement by June 20. Users can swap USDH for USDC on the spot order book: https://app.hyperliquid.xyz/trade/USDH/USDC or swap USDH on the HyperEVM for USDC 1:1 with no fees via Across: https://across.to/?from=hyperevm&to=hypercore&inputToken=USDH&outputToken=USDC-SPOT\n\nNew Teams on the HyperEVM & HyperCore (in no particular order)\n+ Fomo integrated Hyperliquid via builder codes: https://x.com/fomo/status/2065102110673277330\n+ Markets.xyz Android app was released: https://x.com/Markets_xyz/status/2065115343824003563",
+    "url": "https://t.me/hyperliquid_announcements/560"
+  },
+  {
+    "id": 562,
+    "datetime": "2026-06-22T14:06:39+00:00",
+    "text": "Weekly Update\n\nTrading\n+ Validators will vote on whether to delist ARK and DOOD around 25 June 2026 at 9:30 UTC based on stalequant's methodology and community request. If validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.\n+ As part of the USDH sunset, all USDH-denominated markets on HyperCore have completed settlement. Users are recommended to immediately: swap USDH on HyperCore for USDC on the spot order book, swap USDH on HyperEVM for USDC 1:1 with no fees via Across, \nwithdraw supplied USDH from Borrow/Lend, and repay borrowed USDH\n\nNew Teams on the HyperEVM & HyperCore (in no particular order)\n+ Anchorage Prime integrated staking and trading on Hyperliquid: https://x.com/Anchorage/status/2066899699450409015\n+ Mayan bridge integrated HyperCore deposits and withdrawals: https://x.com/mayan/status/2066913720358343089\n+ Bubblemaps added support for the HyperEVM: https://x.com/bubblemaps/status/2067276099495821509\n\nCommunity Highlights\n+ HL Global is organizing an event for institutions and builders in NY on July 16: https://x.com/HLglobal_/status/2066912762026971577\n+ An academic paper used Hyperliquid's data to study the effects of publicly disclosing trading: https://arxiv.org/abs/2606.15715",
+    "url": "https://t.me/hyperliquid_announcements/562"
+  },
+  {
+    "id": 533,
+    "datetime": "2026-04-05T06:19:50+00:00",
+    "text": "Based on stalequant's methodology (https://stalequant.com/delisting_reco/index.html) and community request, max leverage was reduced to 5x for INJ, LDO, OP, SEI, and TIA. Note that max leverage decreases do not affect the liquidation price of open positions until they are modified. To reduce positions that exceed initial margin requirements under the new max leverage, use reduce-only orders. The first non-reduce-only order that modifies a position will subject it to the new max leverage and maintenance margin requirements. As a reminder, maintenance margin is half of the initial margin at max leverage. E.g., if max leverage is 10x, the maintenance margin is 5%.",
+    "url": "https://t.me/hyperliquid_announcements/533"
+  },
+  {
+    "id": 540,
+    "datetime": "2026-04-30T16:41:34+00:00",
+    "text": "Validators will vote on whether to delist MAV, MAVIA, MEW, PROMPT, SCR, TST, USTC, YZY, ZEREBRO on May 5 around 9:00 UTC, based on stalequant's methodology and community request. \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before the scheduled delisting voting time, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/540"
+  },
+  {
+    "id": 519,
+    "datetime": "2026-02-19T08:44:17+00:00",
+    "text": "Validators will vote on whether to delist OM around 8:00 UTC on 23 February. OM is being rebranded to MANTRA. \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before delisting, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/519"
+  },
+  {
+    "id": 521,
+    "datetime": "2026-02-24T14:29:59+00:00",
+    "text": "Weekly Update\n\nProduct & Tech\n+ Cross margin has been enabled for HIP-3 DEXs on mainnet; HIP-3 deployers need to activate cross margin on a per asset basis for users to be able to use cross margin on that asset\n+ app.hyperliquid.xyz has a page for users to remove previously approved builder codes: https://app.hyperliquid.xyz/builderCodes\n\nTrading\n+ OM perps were delisted\n\nNew Teams on the HyperEVM & HyperCore (in no particular order)\n+ Hyperbeat launched USD+ as part of their Liquid Banking on the HyperEVM: https://x.com/hyperbeat/status/2023759219653034219\n+ Rosetta yield aggregator went live on the HyperEVM: https://x.com/rosetta_hl/status/2023385611399545183\n\nCommunity Highlights\n+ Hyperliquid Policy Center, led by Jake Chervinsky, was announced and is hiring: https://x.com/HyperliquidPC/status/2024115893786067190\n+ HL Global organized \"Hypefest\" in Denver: https://x.com/HLglobal_/status/2024522208996184202?s=20\n+ Jeff did a podcast with WSH: https://x.com/chameleon_jeff/status/2024680215960850578\n+ Quicknode open sourced their HyperCore CLI: https://x.com/Quicknode/status/2024142873961369660\n+ Enigma built an interface to export trade history that currently supports data up through Feb 2025, with plans to add support for older data: https://trade-export.hypedexer.com/?v=1",
+    "url": "https://t.me/hyperliquid_announcements/521"
+  },
+  {
+    "id": 496,
+    "datetime": "2026-01-02T14:41:31+00:00",
+    "text": "Validators will vote on whether to delist FXS around 7:30 UTC on 6 January. FXS is being rebranded to FRAX. \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before delisting, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/496"
+  },
+  {
+    "id": 467,
+    "datetime": "2025-10-24T09:38:47+00:00",
+    "text": "Validators will vote on whether to delist LAUNCHCOIN around 07:00 UTC on Oct 25. \n\nIf the asset is delisted, all positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/467"
+  },
+  {
+    "id": 469,
+    "datetime": "2025-10-29T11:25:49+00:00",
+    "text": "Weekly update\n\nProduct & Tech\n+ HIP-3 perps are shown on app.hyperliquid.xyz. New deployers must share links to a Docs page with contract specifications before their perps can be shown. \n+ DEX abstraction for HIP-3 perps is enabled automatically when users connect to app.hyperliquid.xyz. When DEX abstraction is enabled, users can trade HIP-3 perps from their existing perps and spot balances. \n+ A Spanish language option was added in the Globe icon dropdown of app.hyperliquid.xyz\n\nTrading\n+ MEGAETH hyperp was listed\n+ MET hyperp was converted to a regular perp \n+ LAUNCHCOIN was delisted\n\nNew Teams on the HyperEVM & HyperCore (in no particular order)\n+ Based released live-streaming and copy trading on HyperCore: https://x.com/BasedOneX/status/1981534082732630276\n+ SubQuery supports indexing of the HyperEVM: https://x.com/SubQueryNetwork/status/1980197641490223559\n+ Bitget wallet integrated the HyperEVM: https://x.com/BitgetWallet/status/1983096405473538055\n\nCommunity Highlights\n+ Hyperliquid Labs is hiring backend and frontend engineers. Apply here: https://jobs.ashbyhq.com/Hyperliquid%20Labs\n+ Jeff spoke on TBPN: https://www.youtube.com/live/eej68BhIK_Q?si=z5-tabgpSJuazlH4&t=5768\n+ Community meet-ups took place in Nigeria (https://x.com/hyperliquidNGx/status/1982750234296844338) and Melbourne (https://x.com/HyperliquidAu/status/1982674050188189714)\n+ KNTQ (Kinetiq) is airdropping to Hypurr NFT holders: https://x.com/KinetiqFND/status/1981005133275373603",
+    "url": "https://t.me/hyperliquid_announcements/469"
+  },
+  {
+    "id": 471,
+    "datetime": "2025-11-02T10:46:26+00:00",
+    "text": "As a reminder, validators vote on the delisting of validator-operated perps. If validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before delisting. This is a settlement mechanism used by many CEXs. Users who wish to avoid automatic settlement should close their positions beforehand. See: https://hyperliquid.gitbook.io/hyperliquid-docs/trading/delisting",
+    "url": "https://t.me/hyperliquid_announcements/471"
+  },
+  {
+    "id": 472,
+    "datetime": "2025-11-03T06:45:06+00:00",
+    "text": "Validators will vote on whether to delist AI16Z around 8:30 UTC on Nov 6. AI16Z is being rebranded to ELIZAOS. \n\nIf validators vote to delist an asset, the perps will settle to the 1 hour time weighted spot oracle price before delisting, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/472"
+  },
+  {
+    "id": 473,
+    "datetime": "2025-11-06T16:11:05+00:00",
+    "text": "Weekly update\n\nProduct & Tech\n+ The HyperEVM small block gas limit was increased from 2M to 3M \n+ HIP-3 deployers can configure sub-deployers for fine-grained permissioning of deployer actions. See Docs for more: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions \n\nTrading\n+ CC hyperps were listed and AI16Z was delisted\n+ Max leverage was increased for ZEC to 10x\n\nCommunity Highlights\n+ Community events are taking place in Bangkok on Nov 9 (https://x.com/Hyperliquid_TH/status/1986092898287505613), Vancouver on Nov 13 (https://x.com/hyperliquid_ca/status/1980686448212021377) and Jakarta on Nov 13 (details to be shared by https://x.com/Hyperliquid_IDN)",
+    "url": "https://t.me/hyperliquid_announcements/473"
+  },
+  {
+    "id": 478,
+    "datetime": "2025-11-14T16:47:32+00:00",
+    "text": "Based on stalequant's methodology (https://github.com/stalequant/stalequant.github.io/blob/main/build_delisting_recos.py) and community request, max leverage was reduced to 3x for AIXBT, ALT, BABY, BIO, BLUR, BRETT, GMT, GMX, GOAT, GRASS, IO, ME, MELANIA, MEME, MEW, MOODENG, MOVE, kNEIRO, OM, ORDI, PNUT, POPCAT, PROMPT, SUSHI, TURBO, USUAL, VINE, and ZEREBRO and 5x for WIF. \n\nNote that max leverage decreases do not affect the liquidation price of open positions until they are modified. To reduce positions that exceed initial margin requirements under the new max leverage, use reduce-only orders. The first non-reduce-only order that modifies a position will subject it to the new max leverage and maintenance margin requirements. As a reminder, maintenance margin is half of the initial margin at max leverage. E.g., if max leverage is 10x, the maintenance margin is 5%.",
+    "url": "https://t.me/hyperliquid_announcements/478"
+  },
+  {
+    "id": 480,
+    "datetime": "2025-11-19T06:22:34+00:00",
+    "text": "HIP-3 growth mode \n\nIn order to bootstrap novel markets, the next network upgrade will allow HIP-3 deployers to activate growth mode on a per asset basis. Like other HIP-3 deployer actions, activating growth mode is permissionless. \n\nWhen growth mode is active, there will be a \u226590% reduction on the all-in fees. Rebates and volume contributions will also be \u226590% lower. Growth mode applies on top of other multipliers, such as aligned stablecoin collateral fee benefits and staking discounts. Growth mode parameters may be adjusted based on user feedback.\n\nThe following two conditions apply for growth mode:\n1. The deployer fee scale must be set between 0 and 1. As a reminder, deployer fee scale is the amount the deployer keeps as a percentage of the user\u2019s fees before applying aligned stablecoin collateral discount, if applicable. See docs on deployer fee scale for more information: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions. This will also be enabled on mainnet on the next network upgrade and is already available on testnet. Setting growth mode has a 30 day cooldown per asset.\n2. The markets must be entirely disjoint from existing validator-operated perps to prevent parasitic volume. For example, the following are not eligible for growth mode:\n+ Crypto perps against any collateral \n+ Perps on crypto indexes, ETFs, or other baskets of crypto assets\n+ Perps on mathematical combinations including crypto assets, such as a linear combination of BTC and another asset\u2019s price\n+ Perps on vehicles or wrappers that hold primarily crypto assets\n+ Perps tracking gold price, because PAXG-USDC already tracks gold price \nThis list of examples is illustrative and not comprehensive. Similar to delistings, the ultimate decider for disabling ineligible growth mode perps is onchain validator vote. \n\nIn summary, the baseline all-in taker rate under growth mode will be between 0.0045%-0.009% (5-10x lower than the 0.045% baseline fee for validator-operated perps) for non-aligned collateral assets and 0.0036%-0.0081% for aligned collateral assets. At the highest volume and staking tier, the taker fee will be 0.00144%-0.00288% for non-aligned collateral assets.",
+    "url": "https://t.me/hyperliquid_announcements/480"
+  },
+  {
+    "id": 446,
+    "datetime": "2025-09-28T10:29:31+00:00",
+    "text": "Biweekly update \n\nProduct & Tech\n+ Permissionless spot quote assets are live on mainnet. Stablecoin deployers can enable quote asset status, subject to the onchain requirements outlined in the Docs.\nAny quote asset can be specified as the quote asset in the first spot pair of an HIP-1 deployment. Additional asset pairs between existing base and quote assets can also be deployed through a permissionless Dutch auction. This auction is independent from the HIP-1 token auction. Native Markets deployed USDH as the first permissionless quote asset. Users can now trade HYPE/USDH, with more permissionless pair deployments possible in the future.\n+ HIP-3 on testnet is available for mainnet level bug bounties. The initial mainnet spec is described in the previous announcement. \n+ Updated the Docs to include a Builder Tools section: https://hyperliquid.gitbook.io/hyperliquid-docs/builder-tools\n\nTrading\n+ ASTER, AVNT, APEX, HEMI, STBL, and 0G perps were listed\n+ XPL hyperp was converted to a regular perp\n+ OMNI and NEIROETH were delisted\n+ XPL spot trading, deposits, and withdrawals went live via Unit Protocol \n\nNew Teams on the HyperEVM (in no particular order)\n+ Rabby swaps: https://x.com/rabby_io/status/1971548219252547897\n+ Kintsu liquid staking: https://x.com/kintsu_xyz/status/1967952624621387810\n+ Gas Network gas estimation: https://x.com/gasdotnetwork/status/1968346758284824982\n\nNew Teams on HyperCore (in no particular order)\n+ Artemis open sourced their Hyperliquid data: https://x.com/artemis/status/1970640312474444126\n+ QuickNode added support for HyperCore data streams: https://x.com/QuickNode/status/1970880929582498099\n\nCommunity Highlights\nA big thank you to everyone who organized and was part of the different community events this week in Seoul, including:\n+ HLH hackathon hosted by HypeRPC and B-Harvest: https://x.com/hlh_build/status/1970442533651259491\n+ Fireside chat at KBW with Jeff and SKYGG's Christy: https://x.com/christyhwchoi/status/1970479698288271683\n+ HypurrCorea, HypurrCo, and Hyperliquid KR meet-up: https://x.com/SKYGG_Official/status/1970513940804444294\n+ Hyperliquid in pink themed builder meet-up: https://x.com/hyperbuilder_hl/status/1972158209046835218\n+ Hyperliquid KR Meow-Gather: https://x.com/Hyperliquid_KR/status/1971917662952542223\n+ Local meet & greet with Jeff\n\nLook forward to seeing many of you in Singapore this week!",
+    "url": "https://t.me/hyperliquid_announcements/446"
+  },
+  {
+    "id": 463,
+    "datetime": "2025-10-15T12:28:57+00:00",
+    "text": "Based on stalequant's methodology (https://github.com/stalequant/stalequant.github.io/blob/main/build_delisting_recos.py) and community request, max leverage was increased for PAXG (10x), PUMP (10x), and ASTER (5x) and reduced to 3x for BIGTIME, GRIFFAIN, NXPC, SAGA, SCR, and SOPH.\n\nNote that max leverage decreases do not affect the liquidation price of open positions until they are modified. To reduce positions that exceed initial margin requirements under the new max leverage, use reduce-only orders. The first non-reduce-only order that modifies a position will subject it to the new max leverage and maintenance margin requirements. As a reminder, maintenance margin is half of the initial margin at max leverage. E.g., if max leverage is 10x, the maintenance margin is 5%.",
+    "url": "https://t.me/hyperliquid_announcements/463"
+  },
+  {
+    "id": 426,
+    "datetime": "2025-09-02T05:36:40+00:00",
+    "text": "As discussed in the Discord governance channel, validators will be voting on whether to delist MKR as part of the MKR -> SKY conversion around 10:00 UTC on Sep 5.",
+    "url": "https://t.me/hyperliquid_announcements/426"
+  },
+  {
+    "id": 427,
+    "datetime": "2025-09-05T11:32:53+00:00",
+    "text": "On the next network upgrade, to improve liquidity and reduce user friction, spot pairs between two spot quote assets will have 80% lower taker fees, maker rebates, and user volume contribution.\n\nThe USDH ticker, currently reserved by the protocol, will be released by a validator vote in a transparent, onchain process.\n+ The USDH ticker is well-suited for a Hyperliquid-first, Hyperliquid-aligned, and compliant USD stablecoin. \n+ After the next network upgrade, validators will be able to vote to allow a user address to purchase the USDH ticker. Voting is fully onchain through a Hyperliquid L1 transaction, in the same way that delisting votes work.\n+ As USDH is a canonical ticker with high demand, validators will vote on the team best equipped to build a natively minted, Hyperliquid-first stablecoin. Teams interested in being considered for the ticker may submit a proposal in the USDH Discord forum and should include the user address which would deploy the USDH ticker if selected by a validator quorum. Note that the approved team must still participate in the usual spot deploy gas auction.\n\nFor context, spot quote assets will become permissionless in the future, starting with testnet. There will be a staking requirement and slashing criteria to be announced.",
+    "url": "https://t.me/hyperliquid_announcements/427"
+  },
+  {
+    "id": 428,
+    "datetime": "2025-09-09T11:21:23+00:00",
+    "text": "Weekly update\n\nProduct & Tech\n+ The USDH ticker, currently reserved by the protocol, is being released by validator vote with discussion in the \u2060Discord server's USDH forum. The USDH ticker is well suited for a Hyperliquid-first, Hyperliquid-aligned, compliant, and natively minted USD stablecoin. Teams have until Sep 10 at 10:00 UTC to submit a proposal, and validators will state who they are voting for by Sep 11 at 10:00 UTC. Users have until Sep 14 at 10:00 UTC, when validator voting begins, to stake to a validator matching their vote. Voting is based on stake, and the Foundation will effectively abstain. For more details, see the previous announcement and the \u2060Discord forum. \n+ Spot pairs between two spot quote assets now have 80% lower taker fees, maker rebates, and user volume contribution. \n+ The referral claim action now claims rewards in all quote assets (currently USDC and USDT). A separate ledger update is recorded for each reward asset claimed.\n\nTrading\n+ LINEA hyperp was listed, and WLFI hyperp was converted to a regular perp\n+ MKR perp was delisted\n\nNew Teams on the HyperEVM (in no particular order)\n+ Dune analytics: https://x.com/Dune/status/1963240600687530392\n\nNew Teams on HyperCore (in no particular order)\n+ Rabby wallet perps trading: https://x.com/Rabby_io/status/1964360621681414356\n+ HyperSig multisig frontend dedicated to HyperCore: https://x.com/hypersig_/status/1963273147144396990\n+ FalconX staking and custody: https://x.com/FalconXGlobal/status/1963225506020491627\n+ HypeDexer historical data by Enigma validator: https://x.com/hypedexer/status/1964072412632535123\n+ Jan's hypeburn.fun added a staking delegation breakdown: https://www.hypeburn.fun/staking",
+    "url": "https://t.me/hyperliquid_announcements/428"
+  },
+  {
+    "id": 439,
+    "datetime": "2025-09-23T16:32:33+00:00",
+    "text": "As discussed in the Discord governance channel, validators will be voting on whether to delist OMNI and NEIROETH around 9:00 UTC on Sep 25.",
+    "url": "https://t.me/hyperliquid_announcements/439"
+  },
+  {
+    "id": 409,
+    "datetime": "2025-08-01T05:27:59+00:00",
+    "text": "As discussed in the Discord governance channel, using stalequant's methodology for reference, validators will be voting on whether to delist kDOGS, OGN, REQ, and STG around 10:00 UTC on Aug 4.",
+    "url": "https://t.me/hyperliquid_announcements/409"
+  },
+  {
+    "id": 411,
+    "datetime": "2025-08-05T09:15:38+00:00",
+    "text": "Bi-weekly update\n\nProduct & Tech\n+ The Hyper Foundation is running a non-validating node to provide low latency data access. For more information, see: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes/foundation-non-validating-node\n+ For more technical updates, please reference the API announcements channel\n\nTrading\n+ OI reached a new ATH of $15.8B\n+ BONK and SPX6900 spot trading, deposits, and withdrawals are now live, thanks to Unit\n+ kDOGS, OGN, REQ, and STG were delisted based on onchain validator vote\n+ Refunds were distributed for users who experienced issues during API server congestion on July 29. Please see the previous announcements for more details. \n\nNew Teams on HyperEVM (in no particular order)\n+ Bridging: Axelar, Bungee, Hyperflow, Reactive Network\n+ Pendle fixed yield: https://x.com/pendle_fi/status/1950526842634703177\n+ Blueberry tokenized HLP: https://x.com/blueberryFDN/status/1946318593517392092\n+ Spectra Finance fixed rates and yield leverage: https://x.com/spectra_finance/status/1948722798899183721\n+ Alchemy RPC and WebSockets: https://x.com/Alchemy/status/1949909651056980272\n+ Covalent indexing: https://x.com/Covalent_HQ/status/1949904401201762628 \n\nNew Teams on HyperCore (in no particular order)\n+ Dexari mobile app on iOS and Android: https://x.com/DexariDotCom/status/1948127961581773311\n+ Pear Protocol pair trading: https://x.com/pear_protocol/status/1949845049405329886\n+ Porto by Anchorage institutional self-custody wallet: https://x.com/Anchorage/status/1948421357827760469\n+ FalconX institutional custody: https://x.com/FalconXGlobal/status/1949871718597640380\n\nCommunity Highlights \n+ Circle announced that it will support native USDC on Hyperliquid in the future: https://x.com/circle/status/1950905110214914364\n+ Allium shared a Hyperliquid dashboard: https://x.com/ethanyish/status/1952380455757721720\n+ The community online hackathon began on July 28, with discussion in the builders channel in the Discord server: https://x.com/hl_hackathon/status/1949832493634355350\n+ There was a community organized event in Hanoi, Vietnam and a co-working day in London: https://x.com/hyperbuilder_hl/status/1951220757872476415, https://x.com/pear_protocol/status/1951318351088853587\n+ Jeff will be speaking at KBW in Seoul in September: https://x.com/kbwofficial/status/1947642810599149732",
+    "url": "https://t.me/hyperliquid_announcements/411"
+  },
+  {
+    "id": 341,
+    "datetime": "2025-04-10T08:11:01+00:00",
+    "text": "As discussed in the Discord governance channel, validators will be voting whether to delist AI, BADGER, CATI, CYBER, LISTA, PIXEL, and RDNT around 12:00 UTC on April 11.",
+    "url": "https://t.me/hyperliquid_announcements/341"
+  },
+  {
+    "id": 342,
+    "datetime": "2025-04-11T13:56:47+00:00",
+    "text": "The onchain delisting of AI, BADGER, CATI, CYBER, LISTA, PIXEL, and RDNT perps took place smoothly. The votes completed onchain once quorum was reached at 12:07 UTC.\n\nYou can see the explorer transactions for the onchain votes. Here is an example for Infinite Field's vote to delist AI: https://app.hyperliquid.xyz/explorer/tx/0x4f02217e5b489d10152f04215619420203950086a6bbf52294e35f64c650118e",
+    "url": "https://t.me/hyperliquid_announcements/342"
+  },
+  {
+    "id": 346,
+    "datetime": "2025-04-17T10:14:41+00:00",
+    "text": "Biweekly update\n\nTrading\n+ PAXG, PROMPT, BABY, and WCT perps were listed\n+ RLB, HPOS, ORBS, BNT, NTRN, ILV, AI, BADGER, CATI, CYBER, LISTA, PIXEL, and RDNT were delisted \n+ The websocket endpoint supports subscribing to realtime (i.e. per-block) BBO changes with the following subscription message: { \"type\": \"bbo\", \"coin\": \"<coin>\" }\n\nEVM Updates\n+ Updated the Docs with more context on the HyperEVM and added a page focused on tools for builders: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm, https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm/tools-for-hyperevm-builders\n+ Spot assets are shown as rows in the app.hyperliquid.xyz Balances table if you have a balance for those spot assets on the HyperEVM or HyperCore. Note that the Balances table only displays your balance on HyperCore. This is intended to make it easier for users to transfer from the HyperEVM back to HyperCore Spot.\n+ Changes to precompiles on testnet: invalid assets or vault address will return an error and consume all gas passed into the precompile call frame; precompiles have a minor gas cost of 2000 + 65 * output_len; spot balances entryNtl in precompile is now in spot wei instead of converting to perps; token, spot, and perps info precompiles have been added\n\nNew Teams Live on EVM (in no particular order)\n+ Felix Protocol to borrow against different assets and mint feUSD: https://x.com/felixprotocol/status/1909577010663379151 \n+ Supurr short-dated options: https://x.com/supurr_app/status/1909647001383223384 \n+ HyperBeat yield vault: https://x.com/0xHyperBeat/status/1910711119217311949\n+ LiquidSwap DEX aggregator: https://x.com/LiquidLaunchHL/status/1911998416391184695\n+ Valantis AMM for stHYPE: https://x.com/ValantisLabs/status/1907463828226363598\n+ Coretex bridge: https://x.com/Cortex_Protocol/status/1906773369027956760 \n+ Mintify UETH bridge: https://x.com/Mintify/status/1912185293265912153\n+ ZeroDev account abstraction solution for builders on HyperEVM: https://x.com/zerodev_app/status/1909265257287335980\n\nCommunity Highlights\n+ Nest wallet integrated trading on Hyperliquid: https://x.com/nestwalletxyz/status/1904171349012099488\n+ Dexari mobile trading app is live for Android: https://x.com/DexariDotCom/status/1907207095725809721\n+ pvp has an ongoing trading competition: https://x.com/pvp_dot_trade/status/1910082481790779607\n+ Various community events will be hosted in Dubai during Token2049: https://lu.ma/9mk0pssf, https://lu.ma/x9axr5wb?tk=mxte1n, https://lu.ma/a1xxxlfw\n+ Hyperliquid KR has a community event in Seoul this Friday: https://lu.ma/s24ijevx, https://x.com/Hyperliquid_KR/status/1909221566757609955\n+ https://hyperscan.gas.zip/ HyperEVM explorer now supports internal txns, traces, events, and logs and is looking for contributors: https://x.com/tomkysar/status/1910275506211369349\n+ Figment shared a report on Hyperliquid: https://figment.io/insights/hyperliquid-first-look-the-complete-onchain-financial-stack/",
+    "url": "https://t.me/hyperliquid_announcements/346"
+  },
+  {
+    "id": 332,
+    "datetime": "2025-03-26T15:45:58+00:00",
+    "text": "After evidence of suspicious market activity, the validator set convened and voted to delist JELLY perps.\n\nAll users apart from flagged addresses will be made whole from the Hyper Foundation. This will be done automatically in the coming days based on onchain data. There is no need to open a ticket. Methodology will be shared in detail in a later announcement.\n\nAs with other chains, validators often need to convene to take decisive action as a group to ensure the integrity of the network. It is a priority to enhance robustness and transparency to the voting system.\n\nNote that HLP\u2019s 24 hour pnl as of writing is approximately 700k USDC. Technical improvements will be made, and the network will grow stronger as a result of lessons learned. More details will be shared shortly.",
+    "url": "https://t.me/hyperliquid_announcements/332"
+  },
+  {
+    "id": 334,
+    "datetime": "2025-03-27T17:43:41+00:00",
+    "text": "Yesterday is a good reminder to stay humble, hungry, and focused on what matters: building a better financial system owned by the people. Hyperliquid is not perfect, but it will continue to iterate and grow through the collective efforts of builders, traders, and supporters. \n\nUsers with JELLY long positions at the time of settlement will be refunded by the Foundation as if their position settled at the closing price of 0.037555. This results in all JELLY traders being settled at a price advantageous to them, except flagged addresses.\n\nTo recap what happened: \nA trader self-traded a 4M USDC JELLY position at 0.0095. \nThe price of JELLY then rose more than 4x, with HLP backstop liquidating the 4M position.\nThe short position led to a loss in HLP\u2019s account value. \nThe OI cap formula is a dynamic function of global liquidity and OI on other venues including major CEXs. A 4M USDC position fell within those limits, but additional open interest was prevented from being opened beyond the automatically triggered cap. \nHowever, the key issue was that once HLP took over the position, it shared collateral with the other component vaults in the strategy and therefore did not trigger ADL. \n\nRisk management on Hyperliquid is being strengthened in various ways, including: \n+ HLP: The Liquidator vault will have a tight cap representing a small percentage of total HLP account value, rebalanced less frequently, and more sophisticated logic around taking backstop liquidations. ADL will be triggered if the Liquidator loses above a certain threshold, instead of moving collateral automatically from the other component vaults. Note that ADL is not expected to trigger during organic market activity.\n+ OI caps: Open interest caps will be refined to be dynamic relative to market cap. \n+ Delistings: Validators will vote onchain to delist assets that fall beneath thresholds.\n\nThank you for your continued feedback, support, and commitment.",
+    "url": "https://t.me/hyperliquid_announcements/334"
+  },
+  {
+    "id": 335,
+    "datetime": "2025-03-28T11:48:39+00:00",
+    "text": "The Hyperliquid blockchain has been upgraded to feature fully onchain validator voting for asset delisting. When a quorum of stake has voted for a delisting, the action automatically triggers onchain. This permissionless stake-based vote weighting primitive is built natively into HyperCore and technically requires no offchain coordination.\n\nAs a demonstration of the new primitive, the Hyper Foundation validators 2-5 will vote to delist MYRO perps around 13:00 UTC on March 29. Hyper Foundation validator 1 will abstain from voting until delegations to initial Delegation Program participants are complete. \n\nLike on other chains, most validators will likely make their intended votes clear offchain beforehand to provide users clarity and predictability. The Hyper Foundation does not act or speak on behalf of other validators. There may be interfaces built or provided in the future to summarize validator voting in a more user-friendly way.",
+    "url": "https://t.me/hyperliquid_announcements/335"
+  },
+  {
+    "id": 336,
+    "datetime": "2025-03-29T16:10:05+00:00",
+    "text": "The onchain delisting of MYRO perps took place smoothly. The vote completed onchain as soon as quorum was reached at 13:16 UTC, which happened when the 13th validator cast its vote. Hyper Foundation 1 and 3 did not vote.\n\nYou can see the explorer transactions for the onchain votes. Here is an example for Nansen x HypurrCollective\u2019s vote to delist, which led to quorum being reached: https://app.hyperliquid.xyz/explorer/tx/0xf4d5e0ded45c40abbbd7042080ab1e01c2006434c5f188b1a14ee473c3fc8dd5",
+    "url": "https://t.me/hyperliquid_announcements/336"
+  },
+  {
+    "id": 337,
+    "datetime": "2025-04-01T06:30:04+00:00",
+    "text": "Biweekly update \n\nProduct\n+ ETH spot trading, deposits, and withdrawals are now live, thanks to Unit. You can trade spot ETH here: https://app.hyperliquid.xyz/trade/0xe1edd30daaf5caac3fe63569e24748da\n+ Staking tiers determined by the amount of HYPE staked will go live on or after April 30. The initial benefit of staking tiers is reduced trading fees.\n+ Misc UI improvements, e.g., added Transfer to EVM button to linked spot assets on the Balances table, tidied up Funding Comparison table \n\nTrading\n+ NIL perps were listed; JELLY and MYRO were delisted \n\nValidators\n+ The Hyperliquid blockchain has been upgraded to feature fully onchain validator voting for asset delisting. Many validators suggested having discussions happen in a public forum. While token-gated discussions are being considered (e.g., permission to post based on staked HYPE), a Discord channel #governance has been created as a temporary solution. To limit spam in the short-term, only validators and their nominated users can post, but all server members can view and react to discussion. The first topic being discussed is delisting methodology and initial assets to delist. The goal here is to reach offchain consensus transparently on which assets to delist, followed by an onchain vote.\n\nEVM Updates\n+ HyperCore and HyperEVM linking is live on mainnet. HyperCore spot assets are available as building blocks for applications on HyperEVM, and HyperEVM builders have a permissionless path to listing on the same liquid and performant order books that power billions of volume per day on HyperCore.\n+ Sprites shared a script to backfill missing HyperEVM blocks on non-validating nodes: https://github.com/hyperliquid-dex/block-importer\n\nNew Teams Live on EVM (in no particular order)\n+ Sentiment borrow/lend platform: https://x.com/sentimentxyz/status/1902027231758786711\n+ HyperLend borrow/lend platform: https://x.com/hyperlendx/status/1904170955666001957\n+ Vaults by Mizu Labs and Hyperbeat + various ecosystem partners: \nhttps://x.com/mizulabs/status/1904580698792747018\nhttps://x.com/0xHyperBeat/status/1904582047772938708\n+ OmniX DVN validates cross-chain messages between supported chains and HyperEVM: https://x.com/OmniX_NFT/status/1899871344835039679\n+ Hyperliquid Names auctions: https://x.com/hlnames/status/1902876154807333140\n+ RedStone oracles: https://x.com/redstone_defi/status/1904203670457319460\n\nCommunity Highlights\n+ Stargate integrated Unit for ETH deposits: https://x.com/stargatefinance/status/1905670060477452593\n+ Cielo wallet tracker added Hyperliquid: https://x.com/CieloFinance/status/1904959500466999395\n+ Jan organized a fundraiser for the cat shelter Zilinske labky 3 months ago, and they shared a video of cats the community was able to support: https://x.com/janklimo/status/1905961119660884104\n+ New Hypurr stickers have been added to Discord and Telegram: https://t.me/addstickers/Hypurrliquid",
+    "url": "https://t.me/hyperliquid_announcements/337"
+  },
+  {
+    "id": 338,
+    "datetime": "2025-04-04T08:19:08+00:00",
+    "text": "As discussed in the Discord governance channel, using Stalequant's methodology for reference, validators will be voting whether to delist RLB, HPOS, ORBS, BNT, NTRN, and ILV around 12:00 UTC on April 4.",
+    "url": "https://t.me/hyperliquid_announcements/338"
+  },
+  {
+    "id": 339,
+    "datetime": "2025-04-04T15:32:36+00:00",
+    "text": "The onchain delisting of RLB, HPOS, ORBS, BNT, NTRN, and ILV perps took place smoothly. The votes completed onchain once quorum was reached at 12:12 UTC.\n\nYou can see the explorer transactions for the onchain votes. Here is an example for CMI's vote to delist RLB: https://app.hyperliquid.xyz/explorer/tx/0xedc87093307fb67de03a0420e3259d017000f05b38fcebe6c8bed96c724a74d5",
+    "url": "https://t.me/hyperliquid_announcements/339"
+  },
+  {
+    "id": 303,
+    "datetime": "2025-01-26T15:50:26+00:00",
+    "text": "Biweekly update\n\nTech\n+ As mentioned previously, testnet balances have been reset to ensure a fair environment for testing trading, running a node, etc. This transition is still in process and should be fixed in a few days. In particular, withdrawals from the testnet bridge are still disabled.\n+ As a reminder, to date, all mainnet validators have qualified based on testnet performance. The next phase of mainnet validators will be permissionless. Once validators are permissionless on mainnet, anyone who meets the self-delegation requirement will be able to register a validator and apply for the Delegation Program. \n+ The number of allowed agents now only depends on the number of allowed sub-accounts, instead of requiring those sub-accounts to exist.\n+ There is now a 100 USDC gas fee for creating a vault. This is in red text in the Create Vault modal.\n+ The multi-sig UI is available for testing at app.hyperliquid-testnet.xyz/multisig as an advanced feature. Unlike most other chains, multi-sig is a primitive built natively into the Hyperliquid L1 instead of requiring smart contracts. Please read the Docs (https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-l1/multi-sig) to understand the details. Note that the UI is intended as a proof of concept for what interfaces can be built. For example, the multi-sig primitive supports all actions onchain even though the UI only supports a few. As always, any bug reports are greatly appreciated.\n\nProduct\n+ Prevented placing limit orders when at OI cap - previously, users who didn't realize there was an OI cap would place orders not realizing they would be cancelled.\n+ Fixed default entry price for spot token transfers before trading is enabled.\n+ Improved continuous loading of data when tab remains open for long periods of time.\n+ Minor improvements to staking UI, funding comparison table, account dropdown, token selector, etc. \n\nTrading\n+ S, MORPHO, TRUMP, MELANIA, ANIME, and VINE perps were listed\n+ ANIME hyperp was listed\n+ FTM perps were delisted \n\nChanges to Spot Deploy\n+ Deployed tokens now allow a setting of the deployer fee share of trading fees paid in the token (i.e., on buys). The deployer fee share can only decrease. In particular, it can be set to zero to ensure that no fees are collected by the deployer in perpetuity.\n+ Using HYPE as an anchor token in genesis now only includes staked HYPE. Excluding addresses from an anchor token will be enabled in the future. \n+ Hyperliquidity is now optional for deployed assets. \n+ wei decimals can now be up to 10, and size decimals can now be up to 5.\n+ Note that the official UI does not yet support these new spot deploy configurations.\n+ As a reminder, remember to test the exact configuration on testnet before using mainnet. If you have purchased a spot asset ID on mainnet and need assistance, please reach out.\n\nCommunity Highlights\n+ Projects have been airdropping to HYPE stakers and other members of the Hyperliquid community, e.g., ANIME, TIME, GOD, and more\n+ Hybridge added support for fiat on-ramp via credit card, Apple Pay, and Google Pay: https://x.com/HyBridgeHL/status/1883491980711194964\n+ Harmonix supports swapping token pairs on Hyperliquid: https://x.com/harmonixfi/status/1880184509905457327?s=46&t=FzB82NK1Ig2kb_HLvfwl3A\n+ Build your own dashboard using https://hypervisor.gg/dashboard\n+ SKYGG shared a map of the Hyperliquid ecosystem: https://x.com/SKYGG_Official/status/1879862273814204486 \n\nNew ATHs\n+ 24h volume: $22B\n+ Open interest: $4.7B\n+ 24h protocol revenue (fees + HLP): $9.5M",
+    "url": "https://t.me/hyperliquid_announcements/303"
+  },
+  {
+    "id": 282,
+    "datetime": "2025-01-04T10:18:57+00:00",
+    "text": "FTM-USD will be delisted on January 12 at 09:30 UTC as part of the rebranding from FTM to S. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, FTM-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/282"
+  },
+  {
+    "id": 286,
+    "datetime": "2025-01-10T06:07:31+00:00",
+    "text": "Biweekly update\n\nStaking\n+ Staking went live on mainnet. >400M HYPE is currently staked \n+ Nansen, ValiDAO, and HypurrScan added staking UIs: https://stake.nansen.ai/stake/hyperliquid, https://app.validao.xyz/stake/hyperliquid, https://hypurrscan.io/staking\n+ ASXN and HypurrScan built staking dashboards: https://data.asxn.xyz/dashboard/hype-staking, https://hypurrscan.io/staking\n\nTrading\n+ AI16Z, AIXBT, ZEREBRO, BIO, GRIFFAIN, and SPX perps were listed\n+ Note that FTM perps will be delisted at 3:30 UTC on January 12 rather than 09:30 UTC\n\nCommunity Highlights\n+ In the 2024 recap, you can find a non-exhaustive list of teams and projects who have contributed to the ecosystem. A sincere thank you to everyone who believed in the vision and played a part in Hyperliquid's growth: https://x.com/HyperliquidX/status/1876628922693251128 \n+ BEATS, an AI agent music engine, launched: https://www.beatsfoundation.com/music \n+ Tholos added support for multisig signing: https://x.com/TholosApp/status/1877098487923327133\n+ MayanFinance (powered by Wormhole) and Router Protocol integrated, offering bridges from new chains: https://x.com/MayanFinance/status/1876314021928071592, https://x.com/routerprotocol/status/1876701670123680219 \n+ Awaken, tax software, added support for Hyperliquid transactions: https://x.com/AwakenTax/status/1873242101468807279\n\nLooking back on the growth from 2023 to 2024 in numbers:\n+ $1B 24h ATH volume to $15B (15x)\n+ $178M open interest to $4.3B (24x)\n+ $56M TVL to $2.1B (37x)\n+ 31k users to 300k (9x)\n+ 100 perps to 158 perps and 128 native spot assets\n+ 24h revenue from trading fees and spot auctions exceeded $3.5M",
+    "url": "https://t.me/hyperliquid_announcements/286"
+  },
+  {
+    "id": 265,
+    "datetime": "2024-12-09T16:31:20+00:00",
+    "text": "LOOM-USD will be delisted on December 12 at 08:30 UTC. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, LOOM-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/265"
+  },
+  {
+    "id": 268,
+    "datetime": "2024-12-12T10:49:09+00:00",
+    "text": "Biweekly update\n\nTech\n+ As posted in API Announcements, API keys (both named and unnamed agents) will no longer work after their deadline. When a key expires, it is highly recommended to generate a new key, as the nonce tracking information for expired agents are eventually pruned from the L1 state. Note that legacy API keys created before deadlines were implemented will expire on Dec 14. \n+ As a reminder, the validator set is permissionless on testnet. There is a self-delegation requirement of 10k HYPE to register a new validator and be eligible for the active set. The top N validators by total delegated stake form the active set. Currently N=50 on testnet. \n+ Please continue to submit any findings for the testnet EVM bug bounty with a minimal reproducible example via \u2060Discord ticket. Thank you for your reports! \n\nProduct\n+ Misc UI improvements: require checkbox confirmation to Send to new address on the L1, mobile QR code modal improvements, etc. \n\nTrading\n+ ALGO, SAND, IOTA, HYPE, ME, and MOVE perps were listed\n+ LOOM perps were delisted\n+ OI reached a new ATH of >$3.5B\n+ 24h volume reached a new ATH of >$10B \n+ 24h liquidations reached a new ATH of >$1B \n\nGenesis Event\n+ The HYPE genesis event occurred smoothly on November 29 \n\nCommunity Highlights\n+ Builders can use the testnet EVM explorers built by Parsec and Prince: https://testnet.purrsec.com/ and https://hyperevm-explorer.vercel.app/\n+ Ambit wrote about precompiles: https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3\n+ Pine Analytics shared notes on the Arbitrum bridge reaching 1.5B in USDC deposits: https://x.com/PineAnalytics/status/1865867525021409638\n+ Octav added support for spot in their portfolio tracker: https://x.com/OctavFi/status/1863606594845786318",
+    "url": "https://t.me/hyperliquid_announcements/268"
+  },
+  {
+    "id": 273,
+    "datetime": "2024-12-19T05:05:12+00:00",
+    "text": "BLZ-USD will be delisted on December 22 at 08:30 UTC. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, BLZ-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/273"
+  },
+  {
+    "id": 278,
+    "datetime": "2024-12-26T07:43:28+00:00",
+    "text": "Biweekly update\n\nTech\n+ A staking UI was added to https://app.hyperliquid-testnet.xyz/staking on testnet to make it easier for users to test and familiarize themselves with staking \n\nProduct\n+ Added $ / % toggle to favorites bar\n+ Added aggregation selector to full order book view on mobile\n+ Enabled order book set size on click setting on mobile\n+ Expanded TP/SL input fields proportionally when expanding the order form horizontally on desktop \n+ Updated OI error message to be clearer, and more misc. UI improvements\n\nTrading\n+ VIRTUAL, PENGU, USUAL, and FARTCOIN perps were listed\n+ BLZ perps were delisted \n+ OI reached a new ATH of >$4.3B\n+ 24h volume reached a new ATH of >$15B \n\nCommunity Highlights\n+ deBridge and Synapse integrated Hyperliquid, enabling cross-chain deposits \n+ Sandwich Trading and Teal Street added support for Hyperliquid\n+ Defillama began tracking Hyperliquid's fees on its dashboard: https://defillama.com/fees. Note that this does not include native spot auctions. \n+ Jan organized a PURR Christmas donation to support a cat shelter: https://www.purrburn.fun/make-a-difference\n+ As always, you can find more great content, analysis, etc. from the community in \u2060the community-research channel in Discord",
+    "url": "https://t.me/hyperliquid_announcements/278"
+  },
+  {
+    "id": 222,
+    "datetime": "2024-09-04T09:16:03+00:00",
+    "text": "MATIC-USD will be delisted on September 9 at 07:30 UTC as part of Polygon's migration from MATIC to POL. \n\nAll positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, MATIC-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/222"
+  },
+  {
+    "id": 223,
+    "datetime": "2024-09-12T14:11:44+00:00",
+    "text": "Bi-weekly update\n\nTech\n+ Validating nodes are live on testnet. You can read more here: https://github.com/hyperliquid-dex/node and discuss in the Discord node operators channel. If you would like to be whitelisted, please run a non-validating node first and then share your address in a Discord ticket. There is a lot of interest in being a validator; thank you for your patience during this gradual rollout as the system is being tested and improved based on user feedback. Please note that testnet is under active development and may be down from time to time. \n\nProduct\n+ Based on user feedback, agent wallets (also referred to as API wallets) will start enforcing expiration times following the next network upgrade. See more in \u2060the API announcements channel. \n+ Updated Support link in footer to be a traditional ticket format with email correspondence\n+ Misc. improvements, e.g., improving rate limiting issues for frontend users, optimizing token selector rendering\n\nCommunity Highlights\n+ ValiDAO mapped testnet nodes: https://x.com/validaoxyz/status/1833150888925626727\n+ HyperScanner shared a write-up about vaults: https://x.com/hyper_scanner/status/1833526731157995548\n+ HypurrCo posted an overall guide: https://x.com/hypurr_co/status/1833446077951054088\n+ HyBridge now supports crosschain swaps to deposit to Hyperliquid: https://x.com/HyBridgeHL/status/1831396387747156153\n+ This is not comprehensive; many community members' great work can be found in \u2060the community research channel in Discord\n\nTrading\n+ kDOGS was listed; MATIC was delisted \n\nL1 Points \n+ L1 points for Weeks 13 and 14 (Aug 21-27 and Aug 28-Sep 3) were distributed. Points distributions take place on Fridays",
+    "url": "https://t.me/hyperliquid_announcements/223"
+  },
+  {
+    "id": 205,
+    "datetime": "2024-07-03T09:43:45+00:00",
+    "text": "Bi-weekly update\n\nPerps\n+ Listed perps for BLAST and LISTA\n+ Converted ZRO to vanilla perp \n+ Delisted perps for NFTI, OX, PANDORA, SHIA, and UNIBOT\n\nTech\n+ Testnet supports transferring spot assets between the L1 and the EVM. Spot assets on the L1 are called \u201cnative spot\u201d while ones on the EVM are called \u201cEVM spot\u201d. The spot deployer can link their native spot asset to any ERC20 contract deployed to the EVM. You can read more in the Discord / Telegram API announcements channels\n\nProduct\n+ Added average entry price, PNL, and PNL share cards for spot assets. Note: spot entry price and PNL started being tracked as of 08:20 UTC on July 3. Pre-existing spot balances are assigned an entry price equal to the first trade or send after the feature was enabled. See Docs for more: https://hyperliquid.gitbook.io/hyperliquid-docs/trading/entry-price-and-pnl#spot\n+ Updated Performance section of Portfolio page to switch between Perps vs Perps + Spot + All for Portfolio page \n+ Added spot equity column to Subaccounts table \n+ Added full screen option to TV chart on mobile and desktop \n+ Changed minimum deposit amount to 5 USDC \n+ Enabled \u201cfull names\u201d for user-deployed spot as part of Step 1, which display on the token contract page and in the description modal\n+ Other miscellaneous UI improvements \n\nL1 Points \n+ L1 points for Weeks 3 and 4 (June 12-18 and June 19-25) were distributed. Points distributions take place on Fridays",
+    "url": "https://t.me/hyperliquid_announcements/205"
+  },
+  {
+    "id": 209,
+    "datetime": "2024-07-15T13:55:34+00:00",
+    "text": "RNDR-USD will be delisted on July 21 at 08:00 UTC. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, the perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/209"
+  },
+  {
+    "id": 211,
+    "datetime": "2024-07-17T02:47:56+00:00",
+    "text": "Bi-weekly update\n\nTech\n+ Non-validating nodes: Testnet now supports running permissionless non-validating nodes. Please share feedback in the node-operators channel in Discord\n\nProduct\n+ Included Hide PNL option in Settings dropdown \n+ Added wei size and minimum lot size to token explorer pages \n+ Improved display / loading on different screen sizes\n+ Changed to display Cancel All column on desktop before establishing connection \n+ Miscellaneous UI improvements\n\nCommunity\n+ Rage Trade announced that $RAGE will launch on the Hyperliquid L1 in August: https://x.com/rage_trade/status/1810630793544527956 \n+ Parsec shared their bridge dashboard and brief write-up: https://x.com/parsec_finance/status/1811761305877184587 https://x.com/parsec_finance/status/1812838194632888466 \n+ mogie made a Dune dashboard for USDC flows: https://x.com/mogie__/status/1812643700163432726\n+ A user shared their funding rate dashboard: https://x.com/worstcontrarian/status/1809057667232772278 \n+ Kaito AI tracked the increase in Hyperliquid mindshare: https://x.com/_kaitoai/status/1812139453789491511\n+ Added a Turkish language channel in the Discord server \n+ Added builders and node-operators channels in the Discord server so there is a dedicated place for discussion and for the community to help each other with integration questions \n\nPerps\n+ RNDR perps will be delisted on July 21 at 08:00 UTC\n\nL1 Points \n+ L1 points for Weeks 5 and 6 (June 26-July 2 and July 3-9) were distributed. Points distributions take place on Fridays",
+    "url": "https://t.me/hyperliquid_announcements/211"
+  },
+  {
+    "id": 212,
+    "datetime": "2024-07-21T07:56:24+00:00",
+    "text": "Note: the RNDR perp delisting will take place at approximately 11:00 UTC (in ~3 hours) instead of 08:00 UTC",
+    "url": "https://t.me/hyperliquid_announcements/212"
+  },
+  {
+    "id": 214,
+    "datetime": "2024-07-30T15:57:02+00:00",
+    "text": "Bi-weekly update \n\nTech\n+ Non-validating nodes: bug fixes and reliability improvements. Updates will continue to be shared in the Discord server\n\nProduct\n+ Enabled spot dust conversion, which happens daily at 00:00 UTC for balances <1 USDC\n+ Changed Hide Small Balances from 1 USDC to 10 USDC\n+ Miscellaneous improvements: removed delisted assets from funding comparison table, tweaked buy/sell icons, fixed spot dusting hash, etc. \n\nCommunity\n+ Rage Trade's $RAGE token sale on Fjord Foundry begins on July 31. $RAGE will go live on the Hyperliquid L1 within 3 days of the public sale's conclusion: https://www.app.rage.trade/token-sale \n+ Jan added spot market stats to https://www.purrburn.fun/stats and made https://www.heyjeff.fun/ to help folks convert <1 JEFF balances to USDC\n+ Igor is building a \"CoinMarketCap\" for the Hyperliquid L1: https://x.com/Liquid_Start/status/1815843937829208346\n+ Shoutout to Louis for continuing to push updates to https://hypurrscan.io/ \n+ Messari shared a report on Hyperliquid: https://x.com/defi_monk/status/1816490915738849611\n+ Many other great user threads can be found in the community research channel in the Discord server \n\nPerps\n+ MEW was listed; RNDR was delisted\n\nL1 Points \n+ L1 points for Weeks 7 and 8 (July 10-16 and July 17-23) were distributed. Points distributions take place on Fridays",
+    "url": "https://t.me/hyperliquid_announcements/214"
+  },
+  {
+    "id": 217,
+    "datetime": "2024-08-12T10:48:41+00:00",
+    "text": "CANTO-USD will be delisted on August 13 at approximately 08:30 UTC. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, the perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/217"
+  },
+  {
+    "id": 218,
+    "datetime": "2024-08-14T15:40:12+00:00",
+    "text": "Bi-weekly update\n\nProduct\n+ Updated market cap to exclude non-circulating balances on the token explorer page and trade page \n+ Miscellaneous improvements: reduced lag when using the slider, cleaned up checkbox enabling/disabling, improved error messages when swapping USDT or USDC.e for <5 USDC, etc. \n\nCommunity\n+ Insilico Terminal now supports Hyperliquid; Jeff joined a twitter spaces with Flood from Insilico to discuss the integration\n+ Tradestream, a trading journal, integrated Hyperliquid: https://x.com/tradestream_xyz/status/1823734377937015184\n+ Hypurr Pump launched on Telegram: https://t.me/+GRIwAPnAUBk4ODE0 \n+ Rage Trade's $RAGE went live on the Hyperliquid L1\n+ Abhi from Theo shared notes on the HyperEVM: https://x.com/abhiii53/status/1821234175212667080 \n+ Community members often do a better job with extensive recaps these days, e.g., from HypurrCollective: https://x.com/hypurrco/status/1822605796892705128 \n\nTrading\n+ 24h perps volume reached a new ATH of >$4.3B on August 5; 24h liquidations also reached a new ATH of >$345M\n+ RENDER was listed; CANTO was delisted\n\nL1 Points \n+ L1 points for Weeks 9 and 10 (July 24-30 and July 31-Aug 6) were distributed. Points distributions take place on Fridays",
+    "url": "https://t.me/hyperliquid_announcements/218"
+  },
+  {
+    "id": 190,
+    "datetime": "2024-06-10T10:40:52+00:00",
+    "text": "FET-USD will be delisted on June 12 at 08:00 UTC. This shorter than usual notice is due to a lack of clarity around the timing of the merger of FET, AGIX, and OCEAN to ASI. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, FET-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/190"
+  },
+  {
+    "id": 191,
+    "datetime": "2024-06-11T12:05:07+00:00",
+    "text": "Bi-weekly update\n\nSpot\n+ 18 different native spot assets are currently live on mainnet. You can learn about how to deploy a native spot asset in the Docs: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-1-native-token-standard \n+ Deployers can reach out to DEX Screener, CoinGecko, etc. to update relevant information \n\nPerps\n+ Listed perps for $TURBO\n+ Delisting $FET on June 12 at 08:00 UTC \n\nTech\n+ Deployed an MVP of the EVM on testnet for dev feedback. You can learn more in the Discord / Telegram API announcements channels\n\nProduct\n+ Added contract address in info bar for mobile\n+ Updated wagmi library - please flag if you are experiencing any issues with connecting your wallet or establishing connection! Since this update was pushed on May 31, some users are disconnected when they open a new tab/window, which has been brought up to the wagmi team. This requires their fixing unfortunately. The situation is being actively monitored. \n+ Misc UI improvements: updated subaccount transfer modal to include subaccount and master balances, fixed issue with max decimals on spot send and transfer modals, TV chart improvements, loading indicator improvements, etc.\n\nCommunity \n+ chrisling built a leaderboard to view individual traders: https://hyperliquid.chrisling.dev/leaderboard\n+ Louis (Discord user) made an explorer: https://hypurrscan.io/token/0xc1fb593aeffbeb02f85e0308e9956a90\n+ Hidden (Discord user) made a frontend for the testnet faucet for EVM gas: https://hyperliquidfaucet.com/ \n\nPoints \n+ The L1 season of points started on May 29 to reflect the growing vision to support the financial ecosystem. 700,000 points were distributed for Week 1 (May 29-June 4 inclusive) on June 7",
+    "url": "https://t.me/hyperliquid_announcements/191"
+  },
+  {
+    "id": 194,
+    "datetime": "2024-06-12T03:05:49+00:00",
+    "text": "The FET-USD delisting will be postponed due to the change in timeline re: the ASI merger. See the announcement from Fetch.ai: https://x.com/Fetch_ai/status/1800541764740342055",
+    "url": "https://t.me/hyperliquid_announcements/194"
+  },
+  {
+    "id": 197,
+    "datetime": "2024-06-17T12:45:16+00:00",
+    "text": "Weekly update\n\nSpot\n+ Total spot volume crossed $500M, with 20 native spot assets \n\nPerps\n+ Listed perps for $BRETT and $IO\n+ Listed hyperp for $ZK, which converted to a vanilla perp today \n+ Postponed delisting of $FET due to change in timeline for the $ASI merger\n\nTech\n+ Testnet EVM now provides a system contract that allows querying native L1 information. The contract is available at 0x1111111111111111111111111111111111111111 and has methods for querying the L1 block number as well as oracle prices. You can read more in the Discord / Telegram API announcements channels\n\nProduct\n+ Added buy/sell icons to the TV chart - these are enabled by default. You can disable them in the settings dropdown by unchecking \"Show Buys and Sells on Chart\" \n+ Added more information to the token contract page in the explorer: deployer address, deploy time, gas, and Hyperliquidity balance sold. Note that gas will only be displayed for new tokens going forward\n+ Added Strict | All toggle to the All section of the token selector, so now spot tokens will display together with perps \n+ Updated wagmi version to fix a subset of users' issues with their wallets disconnecting when opening a new tab/window. Thanks to the wagmi team for fixing this\n+ Misc UI improvements: removed full line click on explorer pages, fixed TV chart not moving when customizing layout, fixed formatting on old explorer events, improved vault page loading, etc.\n\nCommunity\n+ Velo now supports data for top 15 perps on Hyperliquid. This is the first new exchange Velo has added since inception. You can view this data individually or aggregated/normalized with other exchanges: https://velodata.app/futures/SOL\n+ Jeff did an interview with 0xResearch on May 22 that was recently posted: https://youtu.be/cxyUtPoC1-E&t=86\n\nL1 Points \n+ L1 points for Week 2 (June 5-11 inclusive) were distributed. Points distributions take place on Fridays",
+    "url": "https://t.me/hyperliquid_announcements/197"
+  },
+  {
+    "id": 200,
+    "datetime": "2024-06-22T15:51:05+00:00",
+    "text": "BANANA-USD, NFTI-USD, OX-USD, PANDORA-USD, SHIA-USD, and UNIBOT-USD, will be delisted on June 27 at 08:00 UTC. All positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, the perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/200"
+  },
+  {
+    "id": 177,
+    "datetime": "2024-04-29T15:26:33+00:00",
+    "text": "FRIEND-USD will be delisted on May 2 at 08:00 UTC. \n\nAs a reminder, FRIEND-USD is an index, not a hyperp for the friend.tech token. \n\nAll positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. After settlement, FRIEND-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/177"
+  },
+  {
+    "id": 148,
+    "datetime": "2024-03-09T02:28:02+00:00",
+    "text": "STRAX will be delisted on March 15 at 01:00 UTC.\n\nAll positions will be settled at mark price, and open orders will be canceled. Close any positions beforehand to avoid automatic settlement. \n\nAfter settlement, STRAX-USD perps will be delisted, and no new orders will be accepted.",
+    "url": "https://t.me/hyperliquid_announcements/148"
+  },
+  {
+    "id": 150,
+    "datetime": "2024-03-15T01:10:39+00:00",
+    "text": "Following up on the announcement to delist STRAX on March 15 - STRAX has been delisted. All outstanding open positions were settled at mark price, and open orders were canceled.",
+    "url": "https://t.me/hyperliquid_announcements/150"
+  },
+  {
+    "id": 152,
+    "datetime": "2024-03-15T23:52:13+00:00",
+    "text": "Weekly update\n\nTrading\n+ Hummingbot integrated Hyperliquid. Here's their video guide on how to build automated trading bots that use Hyperliquid vaults: https://www.youtube.com/watch?v=F47wt0SprIk\n+ Listed perps for FLOKI and BOME; delisted perps for STRAX \n\nPoints\n+ Week 19 of the points program ended on March 12\n\nProduct\n+ Updated mobile order form to better match CEX layout based on user feedback \n+ Added a warning if trying to place a limit or scale order >3% more aggressive than the best bid/ask price\n+ Added more explanations to both sides of liquidations in the Trade History table \n+ Misc UI improvements: added maker volume % and maker fee highlighting in fee schedule, fixed Binance sorting on funding comparison table, removed extra points row showing for regions with daylight savings, removed sound notification when switching between subaccounts/vaults, etc. \n\nATHs in Metrics\n+ OI: $300M\n+ TVL: $280M \n+ HLP pnl: $13M",
+    "url": "https://t.me/hyperliquid_announcements/152"
+  }
+]

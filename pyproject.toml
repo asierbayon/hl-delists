@@ -1,0 +1,18 @@
+[project]
+name = "hl-delists"
+version = "0.1.0"
+description = "Machine-readable calendar of Hyperliquid delistings"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Asier Bayón" }]
+dependencies = []
+
+[project.scripts]
+hl-delists = "hl_delists.update:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
