@@ -1,5 +1,15 @@
 {
   "schema_version": "1",
   "note": "Meta diffs start at the first committed snapshot. The baseline itself is not rewritten as historical listings or delistings.",
-  "changes": []
+  "changes": [
+    {
+      "id": "meta:2026-11-25T21:39:49Z:spot:@1195:spot_listed",
+      "observed_at": "2026-11-25T21:39:49Z",
+      "kind": "spot_listed",
+      "market": "spot",
+      "asset": "@1195",
+      "dex": null,
+      "source_url": "https://api.hyperliquid.xyz/info"
+    }
+  ]
 }
